@@ -8,15 +8,7 @@ export default function Main() {
           Hi! I'm Sam. Full-stack web developer. SoCal native. Beach lover.
         </h1>
         <p className="black60 fs16 fs20-td lh">
-          The Ohio State University graduate. Student at{' '}
-          <a
-            className="bb pb0_5 hover"
-            href="https://lambdaschool.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Lambda School.
-          </a>
+          Passionate about design, React, and GraphQL.
         </p>
       </section>
       <Projects />
