@@ -1,0 +1,18 @@
+{
+  "name": "samsisle",
+  "version": "1.0.0",
+  "description": "feeling hygge ☀️",
+  "repository": "https://github.com/samsisle/samsisle",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next -p 1738",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build"
+  },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
