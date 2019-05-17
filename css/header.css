@@ -1,0 +1,11 @@
+.header {
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  width: 80%;
+}
+
+.sun {
+  height: 3.5rem;
+  width: 3.5rem;
+}
