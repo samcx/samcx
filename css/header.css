@@ -5,6 +5,12 @@
   width: 80%;
 }
 
+@media screen and (max-width: 48rem) {
+  .header {
+    width: 90%;
+  }
+}
+
 .sun {
   height: 5rem;
   width: 5rem;
