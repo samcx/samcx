@@ -5,13 +5,23 @@
   width: 80%;
 }
 
+.sun {
+  animation: sun-spin infinite 20s linear;
+  height: 5rem;
+  width: 5rem;
+}
+
 @media screen and (max-width: 48rem) {
   .header {
     width: 90%;
   }
 }
 
-.sun {
-  height: 5rem;
-  width: 5rem;
+@keyframes sun-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
