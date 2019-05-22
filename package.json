@@ -5,7 +5,6 @@
   "repository": "https://github.com/samsisle/samsisle",
   "license": "MIT",
   "scripts": {
-    "dev": "next -p 1738",
     "now-build": "next build"
   },
   "dependencies": {
