@@ -6,8 +6,6 @@
   "license": "MIT",
   "scripts": {
     "dev": "next -p 1738",
-    "build": "next build",
-    "start": "next start",
     "now-build": "next build"
   },
   "dependencies": {
