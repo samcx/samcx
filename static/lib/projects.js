@@ -16,10 +16,17 @@ export const projects = [
   },
   {
     category: 'personal',
-    title: 'Instagram Twin',
+    title: 'Lambda Notes',
     description:
-      "A Lambda School project that closely mimics Instagram's design.",
-    view: 'https://instagram-twin.firebaseapp.com',
-    source: 'https://github.com/samsisle/instagram-twin'
+      'A web application that allows a user to create, update, and delete their notes.',
+    view: 'https://sam-lambda-notes.netlify.com',
+    source: 'https://github.com/samsisle/Back-End-Project-Week-Client'
+  },
+  {
+    category: 'personal',
+    title: 'Fellowship Chat',
+    description: 'A simple way to chat with friends.',
+    view: 'https://fellowship-chat-sk.herokuapp.com',
+    source: 'https://github.com/samsisle/fellowship-chat'
   }
 ];
