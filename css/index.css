@@ -92,14 +92,6 @@ a {
   border-color: rgba(0, 0, 0, 0.2);
 }
 
-.black20 {
-  color: rgba(0, 0, 0, 0.2);
-}
-
-.black40 {
-  color: rgba(0, 0, 0, 0.4);
-}
-
 .black60 {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -231,3 +223,20 @@ a {
 .hover:hover {
   color: #ffac34
 }
+
+.bar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  position: fixed;
+  bottom: 0;
+  height: 8px;
+  left: 0;
+  right: 0;
+}
+
+.bar :nth-of-type(1) { background-color: #6d69e0; }
+.bar :nth-of-type(2) { background-color: #80a0ed; }
+.bar :nth-of-type(3) { background-color: #81d4fa; }
+.bar :nth-of-type(4) { background-color: #fdc82c; }
+.bar :nth-of-type(5) { background-color: #fc8124; }
+.bar :nth-of-type(6) { background-color: #fb481e; }
