@@ -1,9 +1,7 @@
-import css from '../css/header.css';
-
 export default function Header() {
   return (
-    <header className={css.header}>
-      <img src="/static/svg/2600.svg" className={css.sun} alt="sun" />
+    <header className="m0a pb4 pt4 w90 w80-d">
+      <img src="/static/svg/2600.svg" className="sun" alt="sun" />
     </header>
   );
 }
