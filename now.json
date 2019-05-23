@@ -2,6 +2,6 @@
   "version": 2,
   "name": "samsisle",
   "public": true,
-  "alias": ["samsisle.now.sh"],
+  "alias": ["samsisle.dev"],
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
