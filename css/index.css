@@ -88,6 +88,10 @@ a {
   border-bottom-width: 1px;
 }
 
+.bc10 {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
 .bc20 {
   border-color: rgba(0, 0, 0, 0.2);
 }
@@ -169,6 +173,10 @@ a {
 }
 
 @media screen and (min-width: 60em) {
+  .b-d {
+    border: none;
+  }
+  
   .flex-d {
     flex-wrap: wrap;
     justify-content: space-between
