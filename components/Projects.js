@@ -9,7 +9,7 @@ export default function Projects() {
           <li className="bb b-d bc10 pb4 pt4 w30-d" key={project.title}>
             <div className="black60 fs14 fw500 category">{project.category}</div>
             <a href={project.view} target="_blank" rel="noopener noreferrer">
-              <h3 className="fs24 fs36-d fw500 pb1 pt1 hover">{project.title}</h3>
+              <h3 className="fs24 fs36-d fw500 pb1 pt1 recoleta hover">{project.title}</h3>
             </a>
             <p className="black60 fs16 fw500 lh pb1 pt1">{project.description}</p>
             <a href={project.view} target="_blank" rel="noopener noreferrer">
