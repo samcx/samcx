@@ -57,6 +57,15 @@ table{
 }
 
 /*-- Global ------------------------------------*/
+@font-face {
+  font-family: 'Recoleta';
+  src: local('Recoleta Bold'), local('Recoleta-Bold'),
+      url('/static/lib/Recoleta-Bold.woff2') format('woff2'),
+      url('/static/lib/Recoleta-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -150,6 +159,10 @@ a {
 
 .pt4 {
   padding-top: 4rem;
+}
+
+.recoleta {
+  font-family: "Recoleta";
 }
 
 .w30 {
