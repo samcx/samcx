@@ -4,6 +4,16 @@ export default function Meta() {
   return (
     <Head>
       <link rel="shortcut icon" href="/static/lib/favicon.ico" />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/static/lib/apple-touch-icon.png"
+      />
+      <link
+        rel="mask-icon"
+        href="/static/lib/safari-pinned-tab.svg"
+        color="#fdc82c"
+      />
       <title>samsisle</title>
       <meta
         name="description"
