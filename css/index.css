@@ -227,8 +227,6 @@ a {
 /*-- Other ------------------------------------*/
 .sun {
   animation: sun-spin infinite 20s linear;
-  height: 5rem;
-  width: 5rem;
 }
 
 @keyframes sun-spin {
