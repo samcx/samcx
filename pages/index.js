@@ -2,8 +2,8 @@
  * ./pages/index.js
  * 
  * This is the index page. Next.js + Now will automatically process
- * and render this page first upon loading https://samsisle.dev on 
- * the browser.
+ * and render this page first upon loading https://samsisle.dev ☀️
+ * on the browser.
  */
 
 import Meta from '../components/Meta';
