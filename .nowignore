@@ -1,5 +1,6 @@
 .next
 .vscode
 node_modules
+.prettierignore
 README.md
 yarn.lock
