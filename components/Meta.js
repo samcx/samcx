@@ -24,6 +24,7 @@ export default function Meta() {
         property="og:description"
         content="Full-stack web developer. SoCal native. Beach lover."
       />
+      <meta property="og:image" content="https://samsisle.dev/static/lib/yellow.png" />
       <meta name="twitter:card" content="summary" />
     </Head>
   );
