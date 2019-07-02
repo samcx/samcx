@@ -60,8 +60,8 @@ table{
 @font-face {
   font-family: 'Recoleta';
   src: local('Recoleta Bold'), local('Recoleta-Bold'),
-      url('/static/lib/Recoleta-Bold.woff2') format('woff2'),
-      url('/static/lib/Recoleta-Bold.woff') format('woff');
+      url('/static/Recoleta-Bold.woff2') format('woff2'),
+      url('/static/Recoleta-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
