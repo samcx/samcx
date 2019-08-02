@@ -17,12 +17,12 @@ export default function Meta() {
       <title>samsisle</title>
       <meta
         name="description"
-        content="Hi! I'm Sam. Full-stack web developer. SoCal native. Beach lover."
+        content="Hi! I'm Sam. Full-stack web developer."
       />
       <meta property="og:title" content="samsisle" />
       <meta
         property="og:description"
-        content="Hi! I'm Sam. Full-stack web developer. SoCal native. Beach lover."
+        content="Hi! I'm Sam. Full-stack web developer."
       />
       <meta property="og:image" content="https://samsisle.dev/static/yellow.png" />
       <meta name="twitter:card" content="summary" />
