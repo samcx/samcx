@@ -15,16 +15,13 @@ export default function Meta() {
         color="#fdc82c"
       />
       <title>samsisle</title>
-      <meta
-        name="description"
-        content="Hi! I'm Sam. Web Engineer."
-      />
+      <meta name="description" content="Hi! I'm Sam. Web Engineer." />
       <meta property="og:title" content="samsisle" />
+      <meta property="og:description" content="Hi! I'm Sam. Web Engineer." />
       <meta
-        property="og:description"
-        content="Hi! I'm Sam. Web Engineer."
+        property="og:image"
+        content="https://samsisle.dev/static/yellow.png"
       />
-      <meta property="og:image" content="https://samsisle.dev/static/yellow.png" />
       <meta name="twitter:card" content="summary" />
     </Head>
   );
