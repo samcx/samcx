@@ -12,7 +12,7 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 import Bar from '../components/Bar';
 
-import '../css/index.css';
+import '../static/css/index.css';
 
 export default function index() {
   return (
