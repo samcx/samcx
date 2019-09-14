@@ -14,6 +14,7 @@ export default function Meta() {
         href="/static/media/safari-pinned-tab.svg"
         color="#fdc82c"
       />
+      <link rel="manifest" href="/static/manifest.json" />
       <title>samsisle</title>
       <meta name="description" content="Hi! I'm Sam. Web Engineer." />
       <meta property="og:title" content="samsisle" />
