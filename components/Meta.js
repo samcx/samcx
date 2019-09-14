@@ -16,6 +16,7 @@ export default function Meta() {
       />
       <link rel="manifest" href="/static/manifest.json" />
       <title>samsisle</title>
+      <meta name="theme-color" content="#000000" />
       <meta name="description" content="Hi! I'm Sam. Web Engineer." />
       <meta property="og:title" content="samsisle" />
       <meta property="og:description" content="Hi! I'm Sam. Web Engineer." />
