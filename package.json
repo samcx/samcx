@@ -8,8 +8,6 @@
   "repository": "https://github.com/samsisle/samsisle",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
-    "start": "next start",
     "now-build": "next build"
   },
   "dependencies": {
