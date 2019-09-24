@@ -9,6 +9,15 @@
     url('/static/Recoleta-Bold.woff') format('woff');
 }
 
+:root {
+  --white: white;
+  --black-10: rgba(0, 0, 0, 0.1);
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-80: rgba(0, 0, 0, 0.8);
+  --bright-orange: #fdc82c;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -18,7 +27,8 @@ html {
 }
 
 body {
-  color: rgba(0, 0, 0, 0.8);
+  background-color: var(--white);
+  color: var(--black-80);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
   line-height: 1;
@@ -47,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+header {
+  height: 13rem;
+}
+
 /*-- Atomic ------------------------------------*/
 .flex-m {
   display: flex;
@@ -59,15 +73,15 @@ a {
 }
 
 .bc10 {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: var(--black-10);
 }
 
 .bc20 {
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: var(--black-20);
 }
 
 .black60 {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--black-60);
 }
 
 .fs14 {
@@ -190,11 +204,11 @@ a {
 }
 
 /*-- Other ------------------------------------*/
-.sun {
-  animation: sun-spin infinite 20s linear;
+.celestial {
+  animation: celestial-spin infinite 20s linear;
 }
 
-@keyframes sun-spin {
+@keyframes celestial-spin {
   from {
     transform: rotate(0deg);
   }
@@ -209,7 +223,7 @@ a {
 }
 
 .hover:hover {
-  color: #fdc82c;
+  color: var(--bright-orange);
 }
 
 .bar {
