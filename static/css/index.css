@@ -1,31 +1,4 @@
-/*-- Global, Reset -----------------------------*/
-@font-face {
-  font-display: swap;
-  font-family: 'Recoleta';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Recoleta Bold'), local('Recoleta-Bold'),
-    url('/static/Recoleta-Bold.woff2') format('woff2'),
-    url('/static/Recoleta-Bold.woff') format('woff');
-}
-
-:root {
-  --white: white;
-  --black-10: rgba(0, 0, 0, 0.1);
-  --black-20: rgba(0, 0, 0, 0.2);
-  --black-60: rgba(0, 0, 0, 0.6);
-  --black-80: rgba(0, 0, 0, 0.8);
-  --bright-orange: #fdc82c;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
+/*-- Body, Resets ------------------------------*/
 body {
   background-color: var(--white);
   color: var(--black-80);
