@@ -207,6 +207,7 @@ header {
 /*-- Other ------------------------------------*/
 .celestial {
   animation: celestial-spin infinite 20s linear;
+  cursor: pointer;
 }
 
 @keyframes celestial-spin {
