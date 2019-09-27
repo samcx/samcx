@@ -26,12 +26,12 @@ export default class MyApp extends App {
             }
 
             :root {
-              --white: white;
-              --black-10: rgba(0, 0, 0, 0.1);
-              --black-20: rgba(0, 0, 0, 0.2);
-              --black-60: rgba(0, 0, 0, 0.6);
-              --black-80: rgba(0, 0, 0, 0.8);
-              --bright-orange: #fdc82c;
+              --bg: white;
+              --header-primary: rgba(0, 0, 0, 0.8);
+              --border-primary: rgba(0, 0, 0, 0.2);
+              --border-secondary: rgba(0, 0, 0, 0.1);
+              --text-primary: rgba(0, 0, 0, 0.6);
+              --hover: #fdc82c;
             }
 
             * {
