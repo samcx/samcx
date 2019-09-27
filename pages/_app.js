@@ -32,6 +32,17 @@ export default class MyApp extends App {
               --border-secondary: rgba(0, 0, 0, 0.1);
               --text-primary: rgba(0, 0, 0, 0.6);
               --hover: #fdc82c;
+              --filter: brightness(1) grayscale(0);
+            }
+
+            [data-theme='dark'] {
+              --bg: rgba(0, 0, 0, 0.8);
+              --header-primary: rgba(255, 255, 255, 0.8);
+              --border-primary: rgba(255, 255, 255, 0.2);
+              --border-secondary: rgba(255, 255, 255, 0.1);
+              --text-primary: rgba(255, 255, 255, 0.6);
+              --hover: #66757f;
+              --filter: brightness(0.75) grayscale(1);
             }
 
             * {
