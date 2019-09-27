@@ -206,6 +206,7 @@ header {
   grid-template-columns: repeat(6, 1fr);
   position: fixed;
   bottom: 0;
+  filter: var(--filter);
   height: 0.8rem;
   left: 0;
   right: 0;
