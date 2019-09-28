@@ -15,8 +15,8 @@
     "next": "^9.0.6",
     "next-compose-plugins": "^2.2.0",
     "next-offline": "^4.0.5",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "react-spring": "^8.0.27"
   }
 }
