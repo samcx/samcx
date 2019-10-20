@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Bar from '../components/Bar';
 
-import '../static/css/index.css';
+import '../public/css/index.css';
 
 export default class MyApp extends App {
   render() {
