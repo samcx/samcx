@@ -1,4 +1,4 @@
-# samsisle (My Portfolio)
+## My Portfolio
 
 ![lighthouse audit](https://raw.githubusercontent.com/samsisle/samsisle/master/public/lighthouse_audit_91319.png)
 
