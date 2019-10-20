@@ -1,6 +1,6 @@
 # samsisle (My Portfolio)
 
-![lighthouse audit](https://raw.githubusercontent.com/samsisle/samsisle/master/static/lighthouse_audit_91319.png)
+![lighthouse audit](https://raw.githubusercontent.com/samsisle/samsisle/master/public/lighthouse_audit_91319.png)
 
 ### In-Progress...
 
