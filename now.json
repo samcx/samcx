@@ -19,7 +19,19 @@
       }
     },
     {
-      "src": "/static/.+",
+      "src": "/Recoleta-Bold.woff2",
+      "headers": {
+        "cache-control": "max-age=31536000"
+      }
+    },
+    {
+      "src": "/2600.svg",
+      "headers": {
+        "cache-control": "max-age=31536000"
+      }
+    },
+    {
+      "src": "/1f311.svg",
       "headers": {
         "cache-control": "max-age=31536000"
       }
