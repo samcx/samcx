@@ -1,4 +1,4 @@
-import { links } from '../static/lib/links';
+import { links } from '../public/lib/links';
 
 export default function Header() {
   return (
