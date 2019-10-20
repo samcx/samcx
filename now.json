@@ -17,6 +17,14 @@
         "cache-control": "public, max-age=43200, immutable",
         "Service-Worker-Allowed": "/"
       }
-    }
+    },
+    {
+      "src": "/static/.+",
+      "headers": {
+        "cache-control": "max-age=31536000"
+      }
+    },
+    { "handle": "filesystem" },
+    { "src": "/*/.*", "dest": "/_error" }
   ]
 }
