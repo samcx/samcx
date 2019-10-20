@@ -5,8 +5,8 @@
   font-style: normal;
   font-weight: 700;
   src: local('Recoleta Bold'), local('Recoleta-Bold'),
-    url('/static/Recoleta-Bold.woff2') format('woff2'),
-    url('/static/Recoleta-Bold.woff') format('woff');
+    url('/Recoleta-Bold.woff2') format('woff2'),
+    url('/Recoleta-Bold.woff') format('woff');
 }
 
 :root {
