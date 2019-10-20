@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTransition, animated } from 'react-spring';
 
-import { toggleDarkMode } from '../static/lib/dark-mode';
+import { toggleDarkMode } from '../public/lib/dark-mode';
 
 export default function Header() {
   const [toggle, set] = useState(false);
@@ -30,7 +30,7 @@ export default function Header() {
           <animated.img
             key={key}
             style={props}
-            src="/static/1f311.svg"
+            src="/1f311.svg"
             className="celestial"
             alt="sun"
             onClick={handleClick}
@@ -39,7 +39,7 @@ export default function Header() {
           <animated.img
             key={key}
             style={props}
-            src="/static/2600.svg"
+            src="/2600.svg"
             className="celestial"
             alt="new moon"
             onClick={handleClick}
