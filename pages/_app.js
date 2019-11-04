@@ -42,7 +42,7 @@ export default class MyApp extends App {
               --border-secondary: rgba(255, 255, 255, 0.1);
               --text-primary: #eaeaea;
               --hover: #66757f;
-              --filter: brightness(0.75) grayscale(1);
+              --filter: brightness(0.50) grayscale(1);
             }
             * {
               box-sizing: border-box;
