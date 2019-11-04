@@ -36,11 +36,11 @@ export default class MyApp extends App {
               --filter: brightness(1) grayscale(0);
             }
             [data-theme='dark'] {
-              --bg: rgba(0, 0, 0, 0.8);
-              --header-primary: rgba(255, 255, 255, 0.8);
+              --bg: #131415;
+              --header-primary: #fafbfc;
               --border-primary: rgba(255, 255, 255, 0.2);
               --border-secondary: rgba(255, 255, 255, 0.1);
-              --text-primary: rgba(255, 255, 255, 0.6);
+              --text-primary: #eaeaea;
               --hover: #66757f;
               --filter: brightness(0.75) grayscale(1);
             }
