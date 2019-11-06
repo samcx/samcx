@@ -1,6 +1,5 @@
 /**
- * See documentation on next-compose-plugins, next-offline,
- * @zeit/next-css & ZEIT Now below for more information:
+ * See documentation on next-offline & ZEIT Now below for more information:
  *
  * https://github.com/hanford/next-offline#next-export
  * https://zeit.co/docs/v2/deployments/official-builders/next-js-now-next/
