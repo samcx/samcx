@@ -23,7 +23,7 @@ export default function Meta() {
       <meta name="description" content="Hi! I'm Sam. Web Engineer." />
       <meta property="og:title" content="samsisle" />
       <meta property="og:description" content="Hi! I'm Sam. Web Engineer." />
-      <meta property="og:image" content="https://samsisle.dev/yellow.png" />
+      <meta property="og:image" content="https://samsisle.dev/pawel-czerwinski-_ePJEC-R0q4-unsplash.png" />
       <meta name="twitter:card" content="summary" />
     </Head>
   );
