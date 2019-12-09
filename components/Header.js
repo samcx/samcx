@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTransition, animated } from 'react-spring';
 
-import { toggleDarkMode } from '../public/lib/dark-mode';
+import { toggleDarkMode } from '../lib/dark-mode';
 
 export default function Header() {
   const [toggle, set] = useState(false);

@@ -1,4 +1,4 @@
-import { projects } from '../public/lib/projects';
+import { projects } from '../lib/projects';
 
 export default function Projects() {
   return (
