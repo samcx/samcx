@@ -3,32 +3,40 @@
   "name": "samsisle",
   "public": true,
   "builds": [{ "src": "next.config.js", "use": "@now/next" }],
-  "headers": [
+  "routes": [
     {
-      "source": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
       "headers": {
         "cache-control": "immutable"
       }
     },
     {
-      "source": "/Recoleta-Bold.woff2",
+      "src": "^/service-worker.js$",
+      "dest": "/_next/static/service-worker.js",
+      "headers": {
+        "cache-control": "public, max-age=43200, immutable",
+        "Service-Worker-Allowed": "/"
+      }
+    },
+    {
+      "src": "/Recoleta-Bold.woff2",
       "headers": {
         "cache-control": "max-age=31536000"
       }
     },
     {
-      "source": "/2600.svg",
+      "src": "/2600.svg",
       "headers": {
         "cache-control": "max-age=31536000"
       }
     },
     {
-      "source": "/1f311.svg",
+      "src": "/1f311.svg",
       "headers": {
         "cache-control": "max-age=31536000"
       }
-    }
-  ],
-  "redirects": [{ "source": "/*/.*", "destination": "/_error" }],
-  "trailingSlash": false
+    },
+    { "handle": "filesystem" },
+    { "src": "/*/.*", "dest": "/_error" }
+  ]
 }
