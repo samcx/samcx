@@ -36,12 +36,6 @@
         "cache-control": "max-age=31536000"
       }
     },
-    {
-      "src": "/pawel-czerwinski-_ePJEC-R0q4-unsplash.jpg",
-      "headers": {
-        "cache-control": "max-age=31536000"
-      }
-    },
     { "handle": "filesystem" },
     { "src": "/*/.*", "dest": "/_error" }
   ]
