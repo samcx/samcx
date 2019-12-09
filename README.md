@@ -1,6 +1,6 @@
 ![Paweł Czerwiński](https://raw.githubusercontent.com/samsisle/samsisle/master/public/pawel-czerwinski-_ePJEC-R0q4-unsplash.jpg)
 
-###### Demo: [https://samsisle.dev](https://samsisle.dev)
+###### Demo: [samsisle.dev](https://samsisle.dev)
 
 ## Installation
 
