@@ -7,6 +7,5 @@
 ```bash
 $ git clone https://github.com/samsisle/samsisle.git
 $ cd samsisle
-$ yarn
-$ yarn dev
+$ yarn && yarn dev
 ```
