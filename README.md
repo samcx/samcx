@@ -12,4 +12,4 @@ $ yarn && yarn dev
 
 This project was built with [Next.js](https://nextjs.org/) and audited with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 
-Click [here](https://samsisle.dev/lighthouse_report) for the latest Lighthouse audit.
+Click [here](https://samsisle.dev/lighthouse_report) for the latest Lighthouse report.
