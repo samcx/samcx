@@ -2,7 +2,13 @@
   "version": 2,
   "name": "samsisle",
   "public": true,
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "builds": [
+    { "src": "next.config.js", "use": "@now/next" },
+    {
+      "src": "public/samsisle.dev_2019-12-09_12-05-08.report.html",
+      "use": "@now/static"
+    }
+  ],
   "routes": [
     {
       "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
@@ -35,6 +41,10 @@
       "headers": {
         "cache-control": "max-age=31536000"
       }
+    },
+    {
+      "src": "/lighthouse_report",
+      "dest": "/public/samsisle.dev_2019-12-09_12-05-08.report.html"
     },
     { "handle": "filesystem" },
     { "src": "/*/.*", "dest": "/_error" }
