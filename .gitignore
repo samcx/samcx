@@ -1,5 +1,5 @@
-# See [https://help.github.com/articles/ignoring-files/,
-# https://www.atlassian.com/git/tutorials/saving-changes/gitignore]
+# See https://help.github.com/articles/ignoring-files/ and 
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 # for more about ignoring files.
 
 # dependencies
