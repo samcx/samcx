@@ -5,7 +5,7 @@
   "builds": [
     { "src": "next.config.js", "use": "@now/next" },
     {
-      "src": "public/samsisle.dev_2019-12-09_12-05-08.report.html",
+      "src": "public/samsisle.dev_2020-01-06_10-56-57.report.html",
       "use": "@now/static"
     }
   ],
@@ -44,7 +44,7 @@
     },
     {
       "src": "/lighthouse_report",
-      "dest": "/public/samsisle.dev_2019-12-09_12-05-08.report.html"
+      "dest": "/public/samsisle.dev_2020-01-06_10-56-57.report.html"
     },
     { "handle": "filesystem" },
     { "src": "/*/.*", "dest": "/_error" }
