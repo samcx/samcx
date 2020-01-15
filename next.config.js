@@ -8,7 +8,6 @@
 const withOffline = require('next-offline');
 
 const nextConfig = {
-  experimental: { css: true },
   reactStrictMode: true,
   target: 'serverless',
   workboxOpts: {
