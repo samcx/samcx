@@ -9,6 +9,7 @@ node_modules
 dist
 .next
 out
+.now
 
 # misc
 .DS_Store
