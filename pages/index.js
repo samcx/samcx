@@ -4,8 +4,13 @@
  * on the browser.
  */
 
-import Main from '../components/Main';
+import Main from "../components/Main";
 
 export default function index() {
+  console.log(
+    '%c"People love what other people are passionate about."\n\n — Mia Sebastian, La La Land ☀️',
+    "font-style: italic; font-size: 12px; color: #fdc82c;"
+  );
+  
   return <Main />;
 }
