@@ -1,6 +1,6 @@
-[![Paweł Czerwiński](https://raw.githubusercontent.com/samsisle/samsisle/master/public/pawel-czerwinski-_ePJEC-R0q4-unsplash.jpg)](https://samsisle.dev)
+[![Paweł Czerwiński](https://raw.githubusercontent.com/samsisle/samsisle/master/public/pawel-czerwinski-_ePJEC-R0q4-unsplash.jpg)](https://samsisle.com)
 
-###### Demo: [samsisle.dev](https://samsisle.dev)
+###### Demo: [samsisle.com](https://samsisle.com)
 
 ## Installation
 
@@ -10,6 +10,6 @@ $ cd samsisle
 $ yarn && yarn dev
 ```
 
-This project was built with [Next.js](https://nextjs.org/) and audited with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+This project was built with [Next.js](https://nextjs.org) and audited with [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 
-Click [here](https://samsisle.dev/lighthouse_report) for the latest Lighthouse report.
+Click [here](https://samsisle.com/lighthouse_report) for the latest Lighthouse report.
