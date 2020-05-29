@@ -1,9 +1,6 @@
 {
   "name": "samsisle",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=10.0.0"
-  },
   "description": "feeling hygge ☀️",
   "repository": "https://github.com/samsisle/samsisle",
   "license": "MIT",
