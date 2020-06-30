@@ -6,10 +6,9 @@
 node_modules
 
 # production
-dist
 .next
+.vercel
 out
-.now
 
 # misc
 .DS_Store
