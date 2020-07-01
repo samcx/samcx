@@ -8,8 +8,6 @@ node_modules
 # production
 .next
 .vercel
-out
 
 # misc
 .DS_Store
-.vscode
