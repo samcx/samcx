@@ -11,6 +11,8 @@
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
+      "@components/*": ["components/*"],
+      "@lib/*": ["lib/*"],
       "@styles/*": ["styles/*"]
     },
     "resolveJsonModule": true,
