@@ -22,6 +22,11 @@
     "pretty-quick": "^2.0.1",
     "typescript": "^3.9.6"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true
