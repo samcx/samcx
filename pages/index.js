@@ -1,3 +1,9 @@
+import Page from '~components/page'
+
 export default function Index() {
-  return <div>bruh</div>
+  return (
+    <Page>
+      <div>bruh</div>
+    </Page>
+  )
 }
