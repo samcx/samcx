@@ -12,7 +12,7 @@
   "dependencies": {
     "next": "^9.5.6-canary.4",
     "react": "^16.14.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
