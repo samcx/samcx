@@ -8,3 +8,5 @@ export default function Index() {
     </Page>
   )
 }
+
+export const config = { unstable_runtimeJS: false }
