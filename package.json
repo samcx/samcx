@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^9.5.6-canary.4",
+    "next": "^9.5.6-canary.9",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
