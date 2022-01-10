@@ -5,13 +5,13 @@
   "repository": "https://github.com/samsisle/samsisle",
   "license": "MIT",
   "scripts": {
-    "dev": "next -p 2021",
+    "dev": "next -p 2022",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^12.0.7",
+    "next": "^12.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
