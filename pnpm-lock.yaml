@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@types/node': ^17.0.21
-  '@types/react': ^17.0.39
+  '@types/react': ^17.0.40
   eslint: ^8.9.0
   eslint-config-next: ^12.1.0
   husky: ^7.0.4
@@ -20,7 +20,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 17.0.21
-  '@types/react': 17.0.39
+  '@types/react': 17.0.40
   eslint: 8.9.0
   eslint-config-next: 12.1.0_05da38aa0d7c6b76490c613c98841282
   husky: 7.0.4
@@ -227,12 +227,12 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react/17.0.39:
-    resolution: {integrity: sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==}
+  /@types/react/17.0.40:
+    resolution: {integrity: sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
-      csstype: 3.0.10
+      csstype: 3.0.11
     dev: true
 
   /@types/scheduler/0.16.2:
@@ -484,8 +484,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /csstype/3.0.10:
-    resolution: {integrity: sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==}
+  /csstype/3.0.11:
+    resolution: {integrity: sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==}
     dev: true
 
   /damerau-levenshtein/1.0.8:
