@@ -1,30 +1,21 @@
 {
-  "name": "samsisle",
+  "name": "turbo-samsisle",
   "version": "2.0.0",
-  "description": "A personal portfolio.",
-  "repository": "https://github.com/samsisle/samsisle",
-  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "sam/*"
+  ],
   "scripts": {
-    "dev": "next -p 2022",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^12.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@types/react": "^17.0.40",
-    "eslint": "^8.11.0",
-    "eslint-config-next": "^12.1.0",
-    "husky": "^7.0.4",
     "prettier": "^2.6.0",
     "pretty-quick": "^3.1.3",
-    "typescript": "^4.6.2"
+    "turbo": "latest"
   },
+  "packageManager": "pnpm@6.32.3",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
