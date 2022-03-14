@@ -11,6 +11,7 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "husky": "7.0.4",
     "prettier": "^2.6.0",
     "pretty-quick": "^3.1.3",
     "turbo": "latest"
