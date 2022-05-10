@@ -18,7 +18,7 @@ importers:
     specifiers:
       '@types/node': ^17.0.35
       '@types/react': ^18.0.9
-      '@types/react-dom': ^18.0.3
+      '@types/react-dom': ^18.0.5
       eslint: ^8.16.0
       eslint-config-next: ^12.1.6
       next: ^12.1.6
@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@types/node': 17.0.35
       '@types/react': 18.0.9
-      '@types/react-dom': 18.0.3
+      '@types/react-dom': 18.0.5
       eslint: 8.16.0
       eslint-config-next: 12.1.6_zvyojjozjfatsvh7rlqywb6lme
       typescript: 4.6.4
@@ -232,8 +232,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/18.0.3:
-    resolution: {integrity: sha512-1RRW9kst+67gveJRYPxGmVy8eVJ05O43hg77G2j5m76/RFJtMbcfAs2viQ2UNsvvDg8F7OfQZx8qQcl6ymygaQ==}
+  /@types/react-dom/18.0.5:
+    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
       '@types/react': 18.0.9
     dev: true
