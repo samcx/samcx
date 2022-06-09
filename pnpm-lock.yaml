@@ -16,7 +16,7 @@ importers:
 
   sam/ko:
     specifiers:
-      '@types/node': ^17.0.42
+      '@types/node': ^18.0.0
       '@types/react': ^18.0.12
       '@types/react-dom': ^18.0.5
       eslint: ^8.18.0
@@ -30,7 +30,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/node': 17.0.42
+      '@types/node': 18.0.0
       '@types/react': 18.0.12
       '@types/react-dom': 18.0.5
       eslint: 8.18.0
@@ -224,8 +224,8 @@ packages:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
 
-  /@types/node/17.0.42:
-    resolution: {integrity: sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==}
+  /@types/node/18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
   /@types/prop-types/15.7.5:
