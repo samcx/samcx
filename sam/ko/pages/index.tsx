@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 
 import Head from 'next/head'
-import Image from 'next/image'
 
 const Index: NextPage = () => {
   return (
@@ -14,7 +13,7 @@ const Index: NextPage = () => {
         <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
       </Head>
       <main>
-        <Image src="/retro.svg" alt="retro" width="300" height="31" />
+        <img src="/retro.svg" alt="retro" width="300" height="31" />
       </main>
     </>
   )
