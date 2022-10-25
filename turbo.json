@@ -3,6 +3,9 @@
     "build": {
       "outputs": [".next/**"]
     },
+    "dev": {
+      "cache": false
+    },
     "lint": {
       "outputs": []
     }
