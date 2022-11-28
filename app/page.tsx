@@ -5,3 +5,5 @@ export default function Page() {
     </main>
   )
 }
+
+export const revalidate = 86400;
