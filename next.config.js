@@ -4,7 +4,6 @@ const nextConfig = {
     appDir: true,
     runtime: 'experimental-edge',
   },
-  output: 'standalone',
   reactStrictMode: true,
 }
 
