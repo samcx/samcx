@@ -1,4 +1,13 @@
+import type { Metadata } from 'next'
 import './global.css'
+
+export const metadata: Metadata = {
+  title: 'Sam Ko',
+  description: 'SAM KO WEB ENGINEER',
+  icons: {
+    icon: '/favicon.svg',
+  },
+}
 
 export default function RootLayout({
   children,
@@ -7,13 +16,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <title>samsisle</title>
-        <meta name="og:title" content="SAM KO WEB ENGINEER" />
-        <meta name="description" content="SAM KO WEB ENGINEER" />
-        <meta name="og:description" content="SAM KO WEB ENGINEER" />
-        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
-      </head>
       <body>{children}</body>
     </html>
   )
