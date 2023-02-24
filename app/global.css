@@ -16,3 +16,10 @@ main {
   margin: 0 auto;
   min-height: 100vh;
 }
+
+.sleeve {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 525px;
+}
