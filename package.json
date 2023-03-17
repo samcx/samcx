@@ -4,7 +4,7 @@
     "description": "A personal portfolio.",
     "repository": "https://github.com/samcx/samcx",
     "license": "MIT",
-    "packageManager": "pnpm@7.29.3",
+    "packageManager": "pnpm@7.30.0",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -23,7 +23,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "turbo": "^1.8.3",
-        "typescript": "^4.9.5"
+        "typescript": "^5.0.2"
     },
     "husky": {
         "hooks": {
