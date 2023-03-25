@@ -1,1 +1,1 @@
-###### [samko.me](https://samko.me)
+###### [sam.cx](https://sam.cx)
