@@ -9,8 +9,13 @@ const nextConfig = {
       {
         source: '/nr',
         destination: 'https://github.com/vercel/next.js/releases',
-        permanent: true,
+        permanent: true
       },
+      {
+        source: 'chatgpt',
+        destination: 'https://chat.openai.com/chat',
+        permanent: true
+      }
     ]
   },
 }
