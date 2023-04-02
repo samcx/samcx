@@ -12,7 +12,7 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: '/chatgpt',
+        source: '/gpt',
         destination: 'https://chat.openai.com/chat',
         permanent: true
       }
