@@ -4,7 +4,7 @@
   "description": "A personal portfolio.",
   "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.2.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@types/node": "^18.15.11",
-    "@types/react": "^18.0.33",
+    "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.38.0",
     "eslint-config-next": "13.3.1-canary.3",
