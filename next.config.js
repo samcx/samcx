@@ -17,8 +17,8 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: '/gpt',
-        destination: 'https://chat.openai.com/chat',
+        source: '/ai',
+        destination: 'https://play.vercel.ai/',
         permanent: true
       }
     ]
