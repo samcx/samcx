@@ -18,9 +18,9 @@ const nextConfig = {
       },
       {
         source: '/ai',
-        destination: 'https://play.vercel.ai/',
+        destination: 'https://play.vercel.ai/r/gpt-4',
         permanent: true
-      }
+      },
     ]
   },
 }
