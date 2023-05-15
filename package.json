@@ -4,9 +4,9 @@
   "description": "A personal portfolio.",
   "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.5.1",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,6 +15,7 @@
     "@types/node": "^20.1.4",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
+    "@vercel/edge-config": "^0.1.10",
     "eslint": "^8.40.0",
     "eslint-config-next": "^13.4.2",
     "next": "^13.4.2",
