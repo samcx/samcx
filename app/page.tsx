@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import retro from '../public/retro.svg'
+import retro from './retro.svg'
 
 export default function Page() {
   return (
@@ -8,12 +8,14 @@ export default function Page() {
         <Image
           alt="logo"
           height={20}
+          priority={true}
           src={retro}
           style={{ transform: 'rotate(90deg)' }}
         />
         <Image
           alt="logo"
           height={20}
+          priority={true}
           src={retro}
           style={{ transform: 'rotate(90deg)' }}
         />
@@ -22,12 +24,14 @@ export default function Page() {
         <Image
           alt="logo"
           height={20}
+          priority={true}
           src={retro}
           style={{ transform: 'rotate(-90deg)' }}
         />
         <Image
           alt="logo"
           height={20}
+          priority={true}
           src={retro}
           style={{ transform: 'rotate(-90deg)' }}
         />
