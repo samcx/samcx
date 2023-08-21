@@ -4,7 +4,7 @@
   "description": "A personal portfolio.",
   "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.7.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,7 +16,7 @@
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "turbo": "^1.10.12"
+    "turbo": "^1.10.13"
   },
   "devDependencies": {
     "@types/node": "^20.5.1",
