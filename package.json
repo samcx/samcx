@@ -5,13 +5,13 @@
   "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^20.8.7",
+    "@types/node": "^20.8.9",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
     "@vercel/edge-config": "^0.4.1",
