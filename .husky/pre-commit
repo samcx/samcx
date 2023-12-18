@@ -8,7 +8,7 @@ if [ -z "$STAGED_FILES" ]; then
   exit 0
 fi
 
-bun biome format --write --log-level=info $STAGED_FILES
+bun biome format $STAGED_FILES --write
 
 if git diff --cached --quiet; then
   echo "No changes left to commit. Aborting."
