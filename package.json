@@ -5,7 +5,6 @@
   "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
@@ -25,7 +24,6 @@
     "eslint": "^8.56.0",
     "eslint-config-next": "canary",
     "husky": "^8.0.3",
-    "prettier": "^3.1.1",
     "turbo": "^1.11.2",
     "typescript": "^5.3.3"
   }
