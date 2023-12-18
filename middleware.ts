@@ -7,13 +7,11 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
- const paths = request.nextUrl.pathname.split('/')
+  const paths = request.nextUrl.pathname.split('/')
   const edgeConfigKeyExists = await has(paths[1])
 
   if (edgeConfigKeyExists) {
-    const redirect = (await get(
-      paths[1],
-    )) as string
+    const redirect = (await get(paths[1])) as string
 
     if (paths[1] === 'issues' && paths[2]) {
       return NextResponse.redirect(`${redirect}/${paths[2]}`)
@@ -21,7 +19,7 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(redirect)
     }
   } else {
-     return NextResponse.next()
+    return NextResponse.next()
   }
 }
 
