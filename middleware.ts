@@ -15,12 +15,16 @@ export async function middleware(request: NextRequest) {
 
     if (paths[1] === 'issues' && paths[2]) {
       return NextResponse.redirect(`${redirect}/${paths[2]}`)
-    } else {
-      return NextResponse.redirect(redirect)
     }
-  } else {
-    return NextResponse.next()
+
+    if (paths[1] === 'nr' && paths[2]) {
+      return NextResponse.redirect(`${redirect}/tag/v${paths[2]}`)
+    }
+
+    return NextResponse.redirect(redirect)
   }
+
+  return NextResponse.next()
 }
 
 export const config = {
