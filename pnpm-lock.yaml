@@ -38,7 +38,7 @@ devDependencies:
     specifier: canary
     version: 14.1.1-canary.25(eslint@8.56.0)(typescript@5.3.3)
   husky:
-    specifier: ^9.0.6
+    specifier: ^9.0.7
     version: 9.0.7
   turbo:
     specifier: ^1.11.3
