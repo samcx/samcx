@@ -24,7 +24,7 @@
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.1-canary.48",
     "husky": "^9.0.10",
-    "turbo": "^1.12.2",
+    "turbo": "^1.12.3",
     "typescript": "^5.3.3"
   }
 }
