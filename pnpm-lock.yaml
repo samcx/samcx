@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@vercel/edge-config':
-    specifier: ^1.0.0
-    version: 1.0.0(@opentelemetry/api@1.7.0)(typescript@5.3.3)
+    specifier: ^1.0.2
+    version: 1.0.2(typescript@5.3.3)
   next:
     specifier: 14.1.1-canary.61
-    version: 14.1.1-canary.61(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0)
+    version: 14.1.1-canary.61(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -330,11 +330,6 @@ packages:
       fastq: 1.17.0
     dev: true
 
-  /@opentelemetry/api@1.7.0:
-    resolution: {integrity: sha512-AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==}
-    engines: {node: '>=8.0.0'}
-    dev: false
-
   /@pkgjs/parseargs@0.11.0:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
@@ -461,13 +456,15 @@ packages:
     resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
     dev: false
 
-  /@vercel/edge-config@1.0.0(@opentelemetry/api@1.7.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-b0hgH543DvGdzcuYZZ2Kl6qFjkp1PQF5NwX3AFtdti3oDZNZuz9ZgT/wXq5Ly7zEBTB5PN7gDwmfkMsqzS1QMQ==}
+  /@vercel/edge-config@1.0.2(typescript@5.3.3):
+    resolution: {integrity: sha512-HZAlFeDQC4tBonBiPecvV8hWxiNVKADQ6jNfTDCOQzT0VyFA6UTX7yJ1I+94S3KrQC+YEBelqbFFkg4nIFghhQ==}
     engines: {node: '>=14.6'}
     peerDependencies:
       '@opentelemetry/api': ^1.7.0
+    peerDependenciesMeta:
+      '@opentelemetry/api':
+        optional: true
     dependencies:
-      '@opentelemetry/api': 1.7.0
       '@vercel/edge-config-fs': 0.1.0
       ts-essentials: 9.4.1(typescript@5.3.3)
     transitivePeerDependencies:
@@ -1832,7 +1829,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@14.1.1-canary.61(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(react@18.2.0):
+  /next@14.1.1-canary.61(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-QMePsaNHDLX3nBi05+2im7fLn/AWq6BYP7quQVqUI3zr+C6rkhr5Zs6+K+9JILh7y7Vdgb6Ajohj6SJfvfy8DQ==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -1848,7 +1845,6 @@ packages:
         optional: true
     dependencies:
       '@next/env': 14.1.1-canary.61
-      '@opentelemetry/api': 1.7.0
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
       caniuse-lite: 1.0.30001588
