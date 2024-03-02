@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^8.57.0
     version: 8.57.0
   eslint-config-next:
-    specifier: 14.1.1-canary.80
-    version: 14.1.1-canary.80(eslint@8.57.0)(typescript@5.3.3)
+    specifier: 14.1.2-canary.1
+    version: 14.1.2-canary.1(eslint@8.57.0)(typescript@5.3.3)
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -222,8 +222,8 @@ packages:
     resolution: {integrity: sha512-3RtBemp2s/P2D9rrezNhvyoojecgWBVJDIAMeeU2h95xr3CkcgG4YJBcxPgHOdtapXCP6Vd24eMRwe0jnOh9eA==}
     dev: false
 
-  /@next/eslint-plugin-next@14.1.1-canary.80:
-    resolution: {integrity: sha512-MjgUoDMr4etZNhG/9EvJ7rnYiwm/xUvsVqEa/gRGI6G9XEILUigPF+TIQR206/SpxaFglH6e54HUhxBQdfjR5w==}
+  /@next/eslint-plugin-next@14.1.2-canary.1:
+    resolution: {integrity: sha512-Ptd8wWr1w1fAQ4r2fSTgrl5u1tgGGi2LBa6Dov6TnvjZivnjSz6f03Q6b/e3TYUpUMXEN8foJWAjkWCNxb3xKw==}
     dependencies:
       glob: 10.3.10
     dev: true
@@ -943,8 +943,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next@14.1.1-canary.80(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-sMop/Mim4/jFPydGuvMcJnjVW+GMgre0fOKPQbJJZzMWo7Rdc3wl5jZnboELra07cIzawvULw0LohMM2wEXCew==}
+  /eslint-config-next@14.1.2-canary.1(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-tKbws7IHZrhLIpWdPt/+jdO2whJ5pLdKg7oE0r/+Fees5z7PbS9TshmXXU2pFQyNnbhEndAfAFGcGoikwbhM4A==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -952,7 +952,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.1.1-canary.80
+      '@next/eslint-plugin-next': 14.1.2-canary.1
       '@rushstack/eslint-patch': 1.7.2
       '@typescript-eslint/parser': 7.1.0(eslint@8.57.0)(typescript@5.3.3)
       eslint: 8.57.0
@@ -1500,7 +1500,7 @@ packages:
     dependencies:
       es-errors: 1.3.0
       hasown: 2.0.1
-      side-channel: 1.0.5
+      side-channel: 1.0.6
     dev: true
 
   /is-array-buffer@3.0.4:
@@ -2220,8 +2220,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /side-channel@1.0.5:
-    resolution: {integrity: sha512-QcgiIWV4WV7qWExbN5llt6frQB/lBven9pqliLXfGPB+K9ZYXxDozp0wLkHS24kWCm+6YXH/f0HhnObZnZOBnQ==}
+  /side-channel@1.0.6:
+    resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
@@ -2279,7 +2279,7 @@ packages:
       internal-slot: 1.0.7
       regexp.prototype.flags: 1.5.2
       set-function-name: 2.0.2
-      side-channel: 1.0.5
+      side-channel: 1.0.6
     dev: true
 
   /string.prototype.trim@1.2.8:
