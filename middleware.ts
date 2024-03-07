@@ -13,11 +13,14 @@ export async function middleware(request: NextRequest) {
   if (edgeConfigKeyExists) {
     const redirect = (await get(paths[1])) as string
 
-    if (['issues', 'file'].includes(paths[1]) && paths[2]) {
+    if (paths[1] === 'issues' && paths[2]) {
       return NextResponse.redirect(`${redirect}/${paths[2]}`)
     }
     if (paths[1] === 'nr' && paths[2]) {
       return NextResponse.redirect(`${redirect}/tag/v${paths[2]}`)
+    }
+    if (paths[1] === 'blob') {
+      return NextResponse.redirect(`${redirect}/${[...paths.slice(2)].join('/')}`)
     }
     return NextResponse.redirect(redirect)
   }
