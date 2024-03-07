@@ -20,7 +20,9 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(`${redirect}/tag/v${paths[2]}`)
     }
     if (paths[1] === 'blob') {
-      return NextResponse.redirect(`${redirect}/${[...paths.slice(2)].join('/')}`)
+      return NextResponse.redirect(
+        `${redirect}/${[...paths.slice(2)].join('/')}`,
+      )
     }
     return NextResponse.redirect(redirect)
   }
