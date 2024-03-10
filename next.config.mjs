@@ -4,8 +4,8 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    ppr: true
-  }
+    ppr: true,
+  },
 }
 
 export default nextConfig
