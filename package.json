@@ -22,7 +22,7 @@
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.0-canary.12",
+    "eslint-config-next": "14.2.0-canary.23",
     "husky": "^9.0.11",
     "turbo": "^1.12.5",
     "typescript": "^5.4.2"
