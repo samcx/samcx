@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@vercel/edge-config": "^1.1.0",
-    "next": "14.2.0-canary.48",
+    "next": "14.2.0-canary.52",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,5 +27,5 @@
     "turbo": "^1.13.0",
     "typescript": "^5.4.3"
   },
-  "packageManager": "pnpm@8.15.5"
+  "packageManager": "pnpm@8.15.6"
 }
