@@ -25,7 +25,7 @@
     "eslint-config-next": "14.2.0-canary.52",
     "husky": "^9.0.11",
     "turbo": "^1.13.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "packageManager": "pnpm@8.15.6"
 }
