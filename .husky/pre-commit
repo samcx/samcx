@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-EXTENSION="js|mjs|ts|tsx"
+EXTENSION="js|json|mjs|ts|tsx"
 STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E "(${EXTENSION})$" | tr '\n' ' ')
 
 if [ -z "$STAGED_FILES" ]; then
