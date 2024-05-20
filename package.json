@@ -14,7 +14,7 @@
     "@vercel/edge-config": "^1.1.0",
     "next": "^14.3.0-canary.70",
     "react": "^19.0.0-rc-3f1436cca1-20240516",
-    "react-dom": "^19.0.0-rc-915b914b3a-20240515"
+    "react-dom": "^19.0.0-rc-3f1436cca1-20240516"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
