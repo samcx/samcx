@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@vercel/edge-config": "^1.1.0",
-    "next": "^14.3.0-canary.87",
+    "next": "^15.0.0-canary.3",
     "react": "^19.0.0-rc-6f23540c7d-20240528",
     "react-dom": "^19.0.0-rc-6f23540c7d-20240528"
   },
