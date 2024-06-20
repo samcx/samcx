@@ -11,20 +11,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.0.0-canary.12",
-    "react": "^19.0.0-rc-eb259b5d3b-20240605",
-    "react-dom": "^19.0.0-rc-eb259b5d3b-20240605"
+    "next": "^15.0.0-canary.38",
+    "react": "^19.0.0-rc-e684ca66ab-20240619",
+    "react-dom": "^19.0.0-rc-e684ca66ab-20240619"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.0",
-    "@types/node": "^20.14.2",
+    "@biomejs/biome": "^1.8.1",
+    "@types/node": "^20.14.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "eslint": "8.57.0",
-    "eslint-config-next": "^15.0.0-canary.12",
+    "eslint-config-next": "^15.0.0-canary.38",
     "husky": "^9.0.11",
-    "turbo": "^2.0.1",
+    "turbo": "^2.0.4",
     "typescript": "^5.4.5"
   },
-  "packageManager": "bun@1.1.12"
+  "packageManager": "bun@1.1.15"
 }
