@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.0.0-canary.46",
+    "next": "^15.0.0-canary.51",
     "react": "^19.0.0-rc-8971381549-20240625",
     "react-dom": "^19.0.0-rc-8971381549-20240625"
   },
