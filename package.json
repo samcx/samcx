@@ -29,5 +29,5 @@
   "engines": {
     "node": "20.x"
   },
-  "packageManager": "bun@1.1.17"
+  "packageManager": "bun@1.1.18"
 }
