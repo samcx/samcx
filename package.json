@@ -11,9 +11,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.0.0-canary.61",
-    "react": "^19.0.0-rc-c3cdbec0a7-20240708",
-    "react-dom": "^19.0.0-rc-c3cdbec0a7-20240708"
+    "next": "15.0.0-canary.61",
+    "react": "19.0.0-rc-c3cdbec0a7-20240708",
+    "react-dom": "19.0.0-rc-c3cdbec0a7-20240708"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
@@ -29,5 +29,5 @@
   "engines": {
     "node": "20.x"
   },
-  "packageManager": "bun@1.1.18"
+  "packageManager": "pnpm@9.5.0"
 }
