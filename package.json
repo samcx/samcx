@@ -21,7 +21,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "eslint": "8.57.0",
-    "eslint-config-next": "^15.0.0-canary.57",
+    "eslint-config-next": "^15.0.0-canary.61",
     "husky": "^9.0.11",
     "turbo": "^2.0.6",
     "typescript": "^5.5.3"
