@@ -10,13 +10,13 @@ importers:
     dependencies:
       next:
         specifier: 15.0.0-canary.67
-        version: 15.0.0-canary.67(react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711))(react@19.0.0-rc-85acf2d195-20240711)
+        version: 15.0.0-canary.67(react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-df5f2736-20240712))(react@19.0.0-rc-df5f2736-20240712)
       react:
-        specifier: 19.0.0-rc-85acf2d195-20240711
-        version: 19.0.0-rc-85acf2d195-20240711
+        specifier: 19.0.0-rc-df5f2736-20240712
+        version: 19.0.0-rc-df5f2736-20240712
       react-dom:
         specifier: 19.0.0-rc-85acf2d195-20240711
-        version: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711)
+        version: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-df5f2736-20240712)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -1234,8 +1234,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@19.0.0-rc-85acf2d195-20240711:
-    resolution: {integrity: sha512-w9QftG0sXaZ/dMbPN2JJn79dMU0sSFYtEZl4BqPQT9+NPfvCNcZNGXfC077Tg8xjL749Ro+Wh5h/bE+v5bda5A==}
+  react@19.0.0-rc-df5f2736-20240712:
+    resolution: {integrity: sha512-EskZQiyMOtoyC5P22HjB2vfLywcdko3TxknC6c+NBmlqjWxi4P70iR5/79PD6xj5f49jljuV9+/CH0N0brSxJg==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.6:
@@ -2738,7 +2738,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.67(react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711))(react@19.0.0-rc-85acf2d195-20240711):
+  next@15.0.0-canary.67(react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-df5f2736-20240712))(react@19.0.0-rc-df5f2736-20240712):
     dependencies:
       '@next/env': 15.0.0-canary.67
       '@swc/helpers': 0.5.11
@@ -2746,9 +2746,9 @@ snapshots:
       caniuse-lite: 1.0.30001642
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-85acf2d195-20240711
-      react-dom: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711)
-      styled-jsx: 5.1.6(react@19.0.0-rc-85acf2d195-20240711)
+      react: 19.0.0-rc-df5f2736-20240712
+      react-dom: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-df5f2736-20240712)
+      styled-jsx: 5.1.6(react@19.0.0-rc-df5f2736-20240712)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.67
       '@next/swc-darwin-x64': 15.0.0-canary.67
@@ -2872,14 +2872,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711):
+  react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-df5f2736-20240712):
     dependencies:
-      react: 19.0.0-rc-85acf2d195-20240711
+      react: 19.0.0-rc-df5f2736-20240712
       scheduler: 0.25.0-rc-85acf2d195-20240711
 
   react-is@16.13.1: {}
 
-  react@19.0.0-rc-85acf2d195-20240711: {}
+  react@19.0.0-rc-df5f2736-20240712: {}
 
   reflect.getprototypeof@1.0.6:
     dependencies:
@@ -3063,10 +3063,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@19.0.0-rc-85acf2d195-20240711):
+  styled-jsx@5.1.6(react@19.0.0-rc-df5f2736-20240712):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-85acf2d195-20240711
+      react: 19.0.0-rc-df5f2736-20240712
 
   supports-color@7.2.0:
     dependencies:
