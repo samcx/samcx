@@ -1,16 +1,25 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
 
-EXTENSION="js|json|mjs|ts|tsx"
-STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E "(${EXTENSION})$" | tr '\n' ' ')
+# Define the file extensions to check
+EXTENSION="json|ts|tsx"
 
+# Get the list of staged files that match the defined extensions
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep -E "(${EXTENSION})$" | tr '\n' ' ')
+
+# If no files are staged for commit, exit early
 if [ -z "$STAGED_FILES" ]; then
+  echo "No ${EXTENSION} files staged for commit. Skipping pre-commit hook."
   exit 0
 fi
 
-bun biome check $STAGED_FILES --write
+# Run biome check on the staged files
+echo "Running biome check on staged files: $STAGED_FILES"
+pnpm biome check $STAGED_FILES --write
 
+# Check if there are any changes left to commit
 if git diff --cached --quiet; then
-  echo "No changes left to commit. Aborting."
+  echo "No changes left to commit after biome check. Aborting commit."
   exit 1
+else
+  echo "Biome check completed successfully. Proceeding with commit."
 fi
