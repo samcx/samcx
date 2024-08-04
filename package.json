@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.0-canary.100",
+    "next": "15.0.0-canary.111",
     "react": "19.0.0-rc-8269d55d-20240802",
     "react-dom": "19.0.0-rc-8269d55d-20240802"
   },
@@ -26,5 +26,5 @@
     "turbo": "^2.0.11",
     "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.7.0"
 }
