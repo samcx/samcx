@@ -34,8 +34,8 @@ importers:
         specifier: 8.57.0
         version: 8.57.0
       eslint-config-next:
-        specifier: 15.0.0-canary.111
-        version: 15.0.0-canary.111(eslint@8.57.0)(typescript@5.5.4)
+        specifier: 15.0.0-canary.119
+        version: 15.0.0-canary.119(eslint@8.57.0)(typescript@5.5.4)
       husky:
         specifier: ^9.1.4
         version: 9.1.4
@@ -241,8 +241,8 @@ packages:
   '@next/env@15.0.0-canary.119':
     resolution: {integrity: sha512-AyH/+psxHta0EkIBg+K79EumK501jjFARUbJXxS8GDap73OCrAVfWfvA4HgDZ7bTD0yqloJBLRm9YLLIotngUw==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.111':
-    resolution: {integrity: sha512-gIfTJ5gh+qwENO15LbH+1ZITIQOmzdlgTsB4gCCodcP9Tuyrtv3ojwpao04drFDEfpF7d8MUnk1g6ne+enfL1Q==}
+  '@next/eslint-plugin-next@15.0.0-canary.119':
+    resolution: {integrity: sha512-w/YSj3Gklrqi6eaQNGvdJleF8QN2loFLBNybGZWHKu30Vfw+nJCiQ6gYVyWf7bnwB/TQgriPxlgbfajIqYTJ8Q==}
 
   '@next/swc-darwin-arm64@15.0.0-canary.119':
     resolution: {integrity: sha512-Go7KtQ9XZVr3VK3GIJyb9WK5HFT8jRUc4eR0oCyygafRNTaYk85lapBtdxueJN91jYvkH6wKDiSc/Le0K50vvQ==}
@@ -639,8 +639,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.0-canary.111:
-    resolution: {integrity: sha512-Zi2897BA4b3+1M5eMMcPcGJgASHUv9aRLwzmjOnf2e350Ge/bKwxJVh4UjjuimS7QeIj7iEd8UqsXJtaFEoT7Q==}
+  eslint-config-next@15.0.0-canary.119:
+    resolution: {integrity: sha512-DtVJoew5svFoCn8hR7b7CPrXZvwvozEct+ifE4oJ69O0VgXK4bAmwl/+JQY5MRX0esMISomCYKQd5bnzo0ZzKQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -1057,10 +1057,6 @@ packages:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
 
-  lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
-
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -1273,11 +1269,6 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-
-  semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.6.3:
@@ -1504,9 +1495,6 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
@@ -1665,7 +1653,7 @@ snapshots:
 
   '@next/env@15.0.0-canary.119': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.111':
+  '@next/eslint-plugin-next@15.0.0-canary.119':
     dependencies:
       fast-glob: 3.3.1
 
@@ -1791,7 +1779,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.6.0
+      semver: 7.6.3
       ts-api-utils: 1.3.0(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
@@ -2177,9 +2165,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.0-canary.111(eslint@8.57.0)(typescript@5.5.4):
+  eslint-config-next@15.0.0-canary.119(eslint@8.57.0)(typescript@5.5.4):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.111
+      '@next/eslint-plugin-next': 15.0.0-canary.119
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.0)(typescript@5.5.4)
@@ -2702,10 +2690,6 @@ snapshots:
     dependencies:
       js-tokens: 4.0.0
 
-  lru-cache@6.0.0:
-    dependencies:
-      yallist: 4.0.0
-
   merge2@1.4.1: {}
 
   micromatch@4.0.7:
@@ -2927,12 +2911,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.6.0:
-    dependencies:
-      lru-cache: 6.0.0
-
-  semver@7.6.3:
-    optional: true
+  semver@7.6.3: {}
 
   set-function-length@1.2.2:
     dependencies:
@@ -3214,7 +3193,5 @@ snapshots:
   word-wrap@1.2.5: {}
 
   wrappy@1.0.2: {}
-
-  yallist@4.0.0: {}
 
   yocto-queue@0.1.0: {}
