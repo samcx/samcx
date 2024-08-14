@@ -10,13 +10,13 @@ importers:
     dependencies:
       next:
         specifier: 15.0.0-canary.119
-        version: 15.0.0-canary.119(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
+        version: 15.0.0-canary.119(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
       react:
         specifier: 19.0.0-rc-1eaccd82-20240816
         version: 19.0.0-rc-1eaccd82-20240816
       react-dom:
-        specifier: 19.0.0-rc-2d2cc042-20240809
-        version: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-1eaccd82-20240816)
+        specifier: 19.0.0-rc-1eaccd82-20240816
+        version: 19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -1210,10 +1210,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0-rc-2d2cc042-20240809:
-    resolution: {integrity: sha512-fe+8TmO3zevW08+LPk9qS93LE2Y5H87l3q6dHNM7zQpelCNCeaPGeSoHAsehx2e2LRv7Iapb/qJLAUUUT9pnvw==}
+  react-dom@19.0.0-rc-1eaccd82-20240816:
+    resolution: {integrity: sha512-8HXIHjY9tQUU4Hf5e/QNwVbNLXO+QJkjyCentxKNNc2vn/UjWc5lL782ZTkqII7xBzA/DhC6UdJi83Vr24cDIQ==}
     peerDependencies:
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-1eaccd82-20240816
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -1264,8 +1264,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0-rc-2d2cc042-20240809:
-    resolution: {integrity: sha512-Pce2RM+MMbQhcPWp21DiVnqlyjo4/Dz4cyW2pQpgz1fFoiuQL0Vfjt6A8M990V/2eBECcVvKAoKzYSAeLPmj6g==}
+  scheduler@0.25.0-rc-1eaccd82-20240816:
+    resolution: {integrity: sha512-R2SIZf9OVNrl+X31RejZK+25c9dFBS5GqCLOkID1MCMI2WQbaLsrbQKcO6Dz6+7+NEUx8rXT6FjmjuXplTWamg==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -2713,7 +2713,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.119(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816):
+  next@15.0.0-canary.119(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816):
     dependencies:
       '@next/env': 15.0.0-canary.119
       '@swc/counter': 0.1.3
@@ -2723,7 +2723,7 @@ snapshots:
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 19.0.0-rc-1eaccd82-20240816
-      react-dom: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-1eaccd82-20240816)
+      react-dom: 19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816)
       styled-jsx: 5.1.6(react@19.0.0-rc-1eaccd82-20240816)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.119
@@ -2842,10 +2842,10 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-1eaccd82-20240816):
+  react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816):
     dependencies:
       react: 19.0.0-rc-1eaccd82-20240816
-      scheduler: 0.25.0-rc-2d2cc042-20240809
+      scheduler: 0.25.0-rc-1eaccd82-20240816
 
   react-is@16.13.1: {}
 
@@ -2907,7 +2907,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  scheduler@0.25.0-rc-2d2cc042-20240809: {}
+  scheduler@0.25.0-rc-1eaccd82-20240816: {}
 
   semver@6.3.1: {}
 
