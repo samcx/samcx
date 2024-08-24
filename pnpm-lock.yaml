@@ -10,13 +10,13 @@ importers:
     dependencies:
       next:
         specifier: 15.0.0-canary.128
-        version: 15.0.0-canary.128(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816)
+        version: 15.0.0-canary.128(react-dom@19.0.0-rc-b57d2823-20240822(react@19.0.0-rc-b57d2823-20240822))(react@19.0.0-rc-b57d2823-20240822)
       react:
-        specifier: 19.0.0-rc-1eaccd82-20240816
-        version: 19.0.0-rc-1eaccd82-20240816
+        specifier: 19.0.0-rc-b57d2823-20240822
+        version: 19.0.0-rc-b57d2823-20240822
       react-dom:
-        specifier: 19.0.0-rc-1eaccd82-20240816
-        version: 19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816)
+        specifier: 19.0.0-rc-b57d2823-20240822
+        version: 19.0.0-rc-b57d2823-20240822(react@19.0.0-rc-b57d2823-20240822)
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -1210,16 +1210,16 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0-rc-1eaccd82-20240816:
-    resolution: {integrity: sha512-8HXIHjY9tQUU4Hf5e/QNwVbNLXO+QJkjyCentxKNNc2vn/UjWc5lL782ZTkqII7xBzA/DhC6UdJi83Vr24cDIQ==}
+  react-dom@19.0.0-rc-b57d2823-20240822:
+    resolution: {integrity: sha512-WZbYsxoOD/aUZyeTIN2J7hJmbVvdZoAaneyGuO/5BILH8gy0dsXlrwj/IB1Ji/HyrxA/QBfBRg/9w2TNjw8RfA==}
     peerDependencies:
-      react: 19.0.0-rc-1eaccd82-20240816
+      react: 19.0.0-rc-b57d2823-20240822
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@19.0.0-rc-1eaccd82-20240816:
-    resolution: {integrity: sha512-jQ/NAywTe/dTHMYcNTR9FvPShpX2e8QrRb2xWBrE/dNqMzbmFynghdMNFlekbBx4PNKdWByVgR7MEakhAfV5rQ==}
+  react@19.0.0-rc-b57d2823-20240822:
+    resolution: {integrity: sha512-SI/vK7ym+yDyJ58/g4sE1F+dUI1g2uEVJUODaLCMgDdGBgEyjjohrdQYDnKfoSCraEMO/Pgoj9QIbagJ8ma0vw==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.6:
@@ -1264,8 +1264,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0-rc-1eaccd82-20240816:
-    resolution: {integrity: sha512-R2SIZf9OVNrl+X31RejZK+25c9dFBS5GqCLOkID1MCMI2WQbaLsrbQKcO6Dz6+7+NEUx8rXT6FjmjuXplTWamg==}
+  scheduler@0.25.0-rc-b57d2823-20240822:
+    resolution: {integrity: sha512-sTgNaWduDaKMwu5wCllFKDqqqeO0GA7XdwUmuYqrlDStdgQpWJHBVW42JCw5b9CWApUP2v/YOb0CDAEzf0fxew==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -2713,7 +2713,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.128(react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816))(react@19.0.0-rc-1eaccd82-20240816):
+  next@15.0.0-canary.128(react-dom@19.0.0-rc-b57d2823-20240822(react@19.0.0-rc-b57d2823-20240822))(react@19.0.0-rc-b57d2823-20240822):
     dependencies:
       '@next/env': 15.0.0-canary.128
       '@swc/counter': 0.1.3
@@ -2722,9 +2722,9 @@ snapshots:
       caniuse-lite: 1.0.30001651
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-1eaccd82-20240816
-      react-dom: 19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816)
-      styled-jsx: 5.1.6(react@19.0.0-rc-1eaccd82-20240816)
+      react: 19.0.0-rc-b57d2823-20240822
+      react-dom: 19.0.0-rc-b57d2823-20240822(react@19.0.0-rc-b57d2823-20240822)
+      styled-jsx: 5.1.6(react@19.0.0-rc-b57d2823-20240822)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.128
       '@next/swc-darwin-x64': 15.0.0-canary.128
@@ -2842,14 +2842,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc-1eaccd82-20240816(react@19.0.0-rc-1eaccd82-20240816):
+  react-dom@19.0.0-rc-b57d2823-20240822(react@19.0.0-rc-b57d2823-20240822):
     dependencies:
-      react: 19.0.0-rc-1eaccd82-20240816
-      scheduler: 0.25.0-rc-1eaccd82-20240816
+      react: 19.0.0-rc-b57d2823-20240822
+      scheduler: 0.25.0-rc-b57d2823-20240822
 
   react-is@16.13.1: {}
 
-  react@19.0.0-rc-1eaccd82-20240816: {}
+  react@19.0.0-rc-b57d2823-20240822: {}
 
   reflect.getprototypeof@1.0.6:
     dependencies:
@@ -2907,7 +2907,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  scheduler@0.25.0-rc-1eaccd82-20240816: {}
+  scheduler@0.25.0-rc-b57d2823-20240822: {}
 
   semver@6.3.1: {}
 
@@ -3036,10 +3036,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@19.0.0-rc-1eaccd82-20240816):
+  styled-jsx@5.1.6(react@19.0.0-rc-b57d2823-20240822):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-1eaccd82-20240816
+      react: 19.0.0-rc-b57d2823-20240822
 
   supports-color@7.2.0:
     dependencies:
