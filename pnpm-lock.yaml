@@ -34,8 +34,8 @@ importers:
         specifier: 8.57.0
         version: 8.57.0
       eslint-config-next:
-        specifier: 15.0.0-canary.119
-        version: 15.0.0-canary.119(eslint@8.57.0)(typescript@5.5.4)
+        specifier: 15.0.0-canary.128
+        version: 15.0.0-canary.128(eslint@8.57.0)(typescript@5.5.4)
       husky:
         specifier: ^9.1.4
         version: 9.1.4
@@ -241,8 +241,8 @@ packages:
   '@next/env@15.0.0-canary.128':
     resolution: {integrity: sha512-dWfXptm0yLu35eg4jwqRS4L2cBUdW/o2xh08KG086QCqbBvjiIiUdFLjY3Efwt8kqymimc+Sf6EmSlPiIiaSCQ==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.119':
-    resolution: {integrity: sha512-w/YSj3Gklrqi6eaQNGvdJleF8QN2loFLBNybGZWHKu30Vfw+nJCiQ6gYVyWf7bnwB/TQgriPxlgbfajIqYTJ8Q==}
+  '@next/eslint-plugin-next@15.0.0-canary.128':
+    resolution: {integrity: sha512-HcecBshSrJyUvGO9q1alBYrDh0bpjon78vgvX26Y9JE4cMoxLRf3AwQsQgDC4WkLQz/uvCt9r4g7nkrlTUmm+g==}
 
   '@next/swc-darwin-arm64@15.0.0-canary.128':
     resolution: {integrity: sha512-byp5RUmyPhMlI77veZPs/OZw/3mgGmJ7IfaYcouLWWSWEWgCm6YYauYiZCGyxBuSP5M0RNszPd+Y/8Wc+HY93w==}
@@ -639,8 +639,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.0-canary.119:
-    resolution: {integrity: sha512-DtVJoew5svFoCn8hR7b7CPrXZvwvozEct+ifE4oJ69O0VgXK4bAmwl/+JQY5MRX0esMISomCYKQd5bnzo0ZzKQ==}
+  eslint-config-next@15.0.0-canary.128:
+    resolution: {integrity: sha512-BEj0U1zGJZzevSSuFUjs+EI840Cz4Z6oB1LtXif54o3YgBANbDIdINwJn6NXOVNeNnKTOqw38xMihJQP87yaDg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -917,8 +917,8 @@ packages:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
 
-  is-core-module@2.15.0:
-    resolution: {integrity: sha512-Dd+Lb2/zvk9SKy1TGCt1wFJFo/MWBPMX5x7KcvLajWTGuomczdQX61PvY5yK6SVACwpoexWo81IfFyoKY2QnTA==}
+  is-core-module@2.15.1:
+    resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
     engines: {node: '>= 0.4'}
 
   is-data-view@1.0.1:
@@ -1061,8 +1061,8 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
 
-  micromatch@4.0.7:
-    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
+  micromatch@4.0.8:
+    resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
   minimatch@3.1.2:
@@ -1653,7 +1653,7 @@ snapshots:
 
   '@next/env@15.0.0-canary.128': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.119':
+  '@next/eslint-plugin-next@15.0.0-canary.128':
     dependencies:
       fast-glob: 3.3.1
 
@@ -2165,9 +2165,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.0-canary.119(eslint@8.57.0)(typescript@5.5.4):
+  eslint-config-next@15.0.0-canary.128(eslint@8.57.0)(typescript@5.5.4):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.119
+      '@next/eslint-plugin-next': 15.0.0-canary.128
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.0)(typescript@5.5.4)
@@ -2187,7 +2187,7 @@ snapshots:
   eslint-import-resolver-node@0.3.9:
     dependencies:
       debug: 3.2.7
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       resolve: 1.22.8
     transitivePeerDependencies:
       - supports-color
@@ -2201,7 +2201,7 @@ snapshots:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.6
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       is-glob: 4.0.3
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -2232,7 +2232,7 @@ snapshots:
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0)
       hasown: 2.0.2
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.fromentries: 2.0.8
@@ -2369,7 +2369,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   fast-glob@3.3.2:
     dependencies:
@@ -2377,7 +2377,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   fast-json-stable-stringify@2.1.0: {}
 
@@ -2558,7 +2558,7 @@ snapshots:
 
   is-callable@1.2.7: {}
 
-  is-core-module@2.15.0:
+  is-core-module@2.15.1:
     dependencies:
       hasown: 2.0.2
 
@@ -2692,7 +2692,7 @@ snapshots:
 
   merge2@1.4.1: {}
 
-  micromatch@4.0.7:
+  micromatch@4.0.8:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
@@ -2874,13 +2874,13 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
   resolve@2.0.0-next.5:
     dependencies:
-      is-core-module: 2.15.0
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
