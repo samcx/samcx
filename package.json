@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "15.0.0-canary.159",
+    "next": "15.0.0-canary.161",
     "react": "19.0.0-rc-e740d4b1-20240919",
     "react-dom": "19.0.0-rc-e740d4b1-20240919"
   },
@@ -27,5 +27,5 @@
     "turbo": "^2.1.2",
     "typescript": "^5.6.2"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.11.0"
 }
