@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "next": "15.0.0-canary.161",
-    "react": "19.0.0-rc-e740d4b1-20240919",
-    "react-dom": "19.0.0-rc-e740d4b1-20240919"
+    "react": "19.0.0-rc-e4953922-20240919",
+    "react-dom": "19.0.0-rc-e4953922-20240919"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.2",
