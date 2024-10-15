@@ -14,7 +14,7 @@
   "dependencies": {
     "next": "15.0.0-rc.1",
     "react": "19.0.0-rc-83825814-20241015",
-    "react-dom": "19.0.0-rc-6cf85185-20241014"
+    "react-dom": "19.0.0-rc-83825814-20241015"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",
