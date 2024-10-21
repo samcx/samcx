@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "15.0.0-canary.202",
+    "next": "^15.0.0",
     "react": "19.0.0-rc-83825814-20241015",
     "react-dom": "19.0.0-rc-83825814-20241015"
   },
