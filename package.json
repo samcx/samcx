@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "^15.0.0",
+    "next": "15.0.0-canary.205",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020"
   },
@@ -22,7 +22,7 @@
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "eslint": "8.57.0",
-    "eslint-config-next": "^15.0.0",
+    "eslint-config-next": "15.0.0-canary.205",
     "husky": "^9.1.6",
     "turbo": "^2.2.3",
     "typescript": "^5.6.3"
