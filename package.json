@@ -14,7 +14,7 @@
   "dependencies": {
     "next": "15.0.4-canary.27",
     "react": "19.0.0-rc-91061073-20241121",
-    "react-dom": "19.0.0-rc.1"
+    "react-dom": "19.0.0-rc-91061073-20241121"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
