@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import retro from './retro.svg'
 
-export default function Page() {
+export default function Home() {
   return (
     <main>
       <div className="sleeve">
