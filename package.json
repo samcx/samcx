@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "next": "15.0.4-canary.31",
-    "react": "19.0.0-rc-91061073-20241121",
+    "react": "19.0.0-rc-7670501b-20241124",
     "react-dom": "19.0.0-rc-91061073-20241121"
   },
   "devDependencies": {
