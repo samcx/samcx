@@ -8,32 +8,36 @@ export default function Home() {
         <Image
           alt="logo"
           height={20}
-          priority={true}
+          priority
           src={retro}
           style={{ transform: 'rotate(90deg)' }}
+          unoptimized
         />
         <Image
           alt="logo"
           height={20}
-          priority={true}
+          priority
           src={retro}
           style={{ transform: 'rotate(90deg)' }}
+          unoptimized
         />
       </div>
       <div className="sleeve">
         <Image
           alt="logo"
           height={20}
-          priority={true}
+          priority
           src={retro}
           style={{ transform: 'rotate(-90deg)' }}
+          unoptimized
         />
         <Image
           alt="logo"
           height={20}
-          priority={true}
+          priority
           src={retro}
           style={{ transform: 'rotate(-90deg)' }}
+          unoptimized
         />
       </div>
     </main>
