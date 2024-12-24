@@ -7,6 +7,7 @@ export default function Sleeve() {
       <Image
         alt="logo"
         height={20}
+        fetchPriority="high"
         priority
         src={retro}
         style={{ transform: 'rotate(90deg)' }}
@@ -15,6 +16,7 @@ export default function Sleeve() {
       <Image
         alt="logo"
         height={20}
+        fetchPriority="high"
         priority
         src={retro}
         style={{ transform: 'rotate(90deg)' }}
