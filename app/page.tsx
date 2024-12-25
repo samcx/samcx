@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main>
       <div>
-        <p>
+        <p className="text">
           Eat at a local resturant tonight. Get the cream sauce. Have a cold
           pint at 4 o&apos;clock in a mostly empty bar. Go somewhere you&apos;ve
           never been. Listen to someone you think may have nothing in common
