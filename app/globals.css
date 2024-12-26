@@ -1,5 +1,12 @@
-*:before,
-*:after {
+:root {
+  --body-margin-bottom: max(8px, env(safe-area-inset-bottom));
+  --body-margin-left: max(8px, env(safe-area-inset-left));
+  --body-margin-right: max(8px, env(safe-area-inset-right));
+  --body-margin-top: max(8px, env(safe-area-inset-top));
+}
+
+*:after,
+*:before {
   box-sizing: border-box;
 }
 
@@ -9,13 +16,11 @@ body {
 }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  min-height: 100vh;
+  margin: var(--body-margin-top) var(--body-margin-right)
+    var(--body-margin-bottom) var(--body-margin-left);
 }
 
 .text {
   font-style: italic;
+  margin: 0;
 }
