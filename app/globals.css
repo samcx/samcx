@@ -18,6 +18,18 @@ body {
 main {
   margin: var(--body-margin-top) var(--body-margin-right)
     var(--body-margin-bottom) var(--body-margin-left);
+  max-width: 1072px;
+}
+
+footer {
+  display: flex;
+  margin: 0 var(--body-margin-right) var(--body-margin-bottom)
+    var(--body-margin-left);
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .text {
