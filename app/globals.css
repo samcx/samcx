@@ -21,10 +21,23 @@ main {
   max-width: 1072px;
 }
 
+main > div:first-child ~ div {
+  margin-top: 16px;
+}
+
 footer {
   display: flex;
   margin: 0 var(--body-margin-right) var(--body-margin-bottom)
     var(--body-margin-left);
+}
+
+p {
+  margin: 0;
+}
+
+em {
+  font-family: Times, serif;
+  font-size: 18px;
 }
 
 a {
@@ -32,7 +45,6 @@ a {
   text-decoration: none;
 }
 
-.text {
-  font-style: italic;
-  margin: 0;
+.quote {
+  font-size: 16px;
 }
