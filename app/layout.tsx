@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
+import { Geist } from 'next/font/google'
 import Footer from '@/components/footer'
 import './globals.css'
+
+const geistSans = Geist({
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Sam Ko',
@@ -14,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={geistSans.className}>
         {children}
         <Footer />
       </body>
