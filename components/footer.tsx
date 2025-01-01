@@ -9,7 +9,13 @@ export default function Footer() {
         𝕏
       </Link>
       <Link href="https://www.instagram.com/samko_cx/" target="_blank">
-        <Image src={Instagram} alt="Instagram icon" height={20} width={20} unoptimized />
+        <Image
+          src={Instagram}
+          alt="Instagram icon"
+          height={20}
+          width={20}
+          unoptimized
+        />
       </Link>
     </footer>
   )
