@@ -27,8 +27,14 @@ main > div:first-child ~ div {
 
 footer {
   display: flex;
+  align-items: center;
+  gap: 2px;
   margin: 0 var(--body-margin-right) var(--body-margin-bottom)
     var(--body-margin-left);
+}
+
+footer > a {
+  display: flex;
 }
 
 p {
