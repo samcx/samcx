@@ -10,8 +10,8 @@ export default function Home() {
           an oyster. <em>Be open to a world</em> where you may not understand or
           agree with the person next to you,{' '}
           <em>but have a drink with them anyways.</em> Eat slowly. Tip your
-          server. <em>Check in</em> on your [family and] friends. Check in on
-          yourself. <em>Enjoy the ride.</em>
+          server. Check in on your [family and] friends. Check in on yourself.{' '}
+          <em>Enjoy the ride.</em>
         </p>
       </div>
     </main>
