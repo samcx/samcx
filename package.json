@@ -20,7 +20,7 @@
     "@biomejs/biome": "^1.9.4",
     "@eslint/eslintrc": "^3.2.0",
     "@types/node": "^22.10.10",
-    "@types/react": "^19.0.7",
+    "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "eslint": "^9.19.0",
     "eslint-config-next": "^15.2.0-canary.27",
