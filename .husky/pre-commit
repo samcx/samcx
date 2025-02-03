@@ -14,7 +14,7 @@ fi
 
 # Run biome check on the staged files
 echo "Running biome check on staged files: $STAGED_FILES"
-pnpm biome check $STAGED_FILES --write
+bun biome check $STAGED_FILES --write
 
 # Check if there are any changes left to commit
 if git diff --cached --quiet; then
