@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import GitHub from '@/public/github.svg'
+import X from '@/public/x.svg'
 import LinkedIn from '@/public/linkedin.svg'
 import Instagram from '@/public/instagram.svg'
 
@@ -17,7 +18,13 @@ export default function Footer() {
         />
       </Link>
       <Link href="https://x.com/samko_cx/" target="_blank">
-        𝕏
+        <Image
+          src={X}
+          alt="X icon"
+          height={18}
+          width={18}
+          unoptimized
+        />
       </Link>
       <Link href="https://www.linkedin.com/in/samcx/" target="_blank">
         <Image
