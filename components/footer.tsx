@@ -18,13 +18,7 @@ export default function Footer() {
         />
       </Link>
       <Link href="https://x.com/samko_cx/" target="_blank">
-        <Image
-          src={X}
-          alt="X icon"
-          height={18}
-          width={18}
-          unoptimized
-        />
+        <Image src={X} alt="X icon" height={18} width={18} unoptimized />
       </Link>
       <Link href="https://www.linkedin.com/in/samcx/" target="_blank">
         <Image
