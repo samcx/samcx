@@ -2,7 +2,7 @@
   "name": "samcx",
   "version": "2.0.0",
   "description": "A personal portfolio.",
-  "repository": "https://github.com/samcx/samcx",
+  "repository": "https://github.com/samcx/sam-ko",
   "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
