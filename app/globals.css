@@ -17,7 +17,7 @@ body {
 main {
   margin: var(--body-margin-top) auto var(--body-margin-bottom) auto;
   max-width: 575px;
-  min-height: calc(100vh - 48px - var(--body-margin-top) - var(--body-margin-bottom));
+  min-height: calc(100dvh - 48px - var(--body-margin-top) - var(--body-margin-bottom));
 }
 
 main > div:first-child ~ div {
