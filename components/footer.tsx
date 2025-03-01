@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import GitHub from '@/public/github.svg'
-import X from '@/public/x.svg'
-import LinkedIn from '@/public/linkedin.svg'
-import Instagram from '@/public/instagram.svg'
+import GitHub from '@/svgs/github.svg'
+import X from '@/svgs/x.svg'
+import LinkedIn from '@/svgs/linkedin.svg'
+import Instagram from '@/svgs/instagram.svg'
 
 export default function Footer() {
   return (
