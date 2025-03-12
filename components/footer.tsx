@@ -15,11 +15,19 @@ export default function Footer() {
             alt="GitHub icon"
             height={12}
             width={17}
+            priority
             unoptimized
           />
         </Link>
         <Link href="https://x.com/samko_cx/" target="_blank">
-          <Image src={X} alt="X icon" height={18} width={18} unoptimized />
+          <Image
+            src={X}
+            alt="X icon"
+            height={18}
+            width={18}
+            priority
+            unoptimized
+          />
         </Link>
         <Link href="https://www.linkedin.com/in/samcx/" target="_blank">
           <Image
@@ -27,6 +35,7 @@ export default function Footer() {
             alt="LinkedIn icon"
             height={13}
             width={20}
+            priority
             unoptimized
           />
         </Link>
@@ -36,6 +45,7 @@ export default function Footer() {
             alt="Instagram icon"
             height={20}
             width={20}
+            priority
             unoptimized
           />
         </Link>
