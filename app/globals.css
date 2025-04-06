@@ -15,8 +15,6 @@ body {
 }
 
 main {
-  margin: var(--body-margin-top) auto var(--body-margin-bottom) auto;
-  max-width: 575px;
   min-height: calc(100dvh - 48px - var(--body-margin-top) - var(--body-margin-bottom));
 }
 
@@ -74,6 +72,17 @@ em {
 a {
   color: #000;
   text-decoration: none;
+}
+
+.page {
+  margin: var(--body-margin-top) auto var(--body-margin-bottom) auto;
+  max-width: 575px;
+}
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote {
