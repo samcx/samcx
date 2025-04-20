@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  min-height: calc(100dvh - 48px - var(--body-margin-top) - var(--body-margin-bottom));
+  height: calc(100dvh - var(--body-margin-top) - var(--body-margin-bottom));
 }
 
 main > div:first-child ~ div {
@@ -24,7 +24,7 @@ main > div:first-child ~ div {
 
 footer {
   display: flex;
-  background-color: oklch(.97 0 0);
+  background-color: oklch(0.97 0 0);
   border-top: 1px solid oklch(0.928 0.006 264.531);
   height: 48px;
   margin: 0 auto;
@@ -90,7 +90,8 @@ a {
 }
 
 @media (width <= 600px) {
-  main {
+  .not-found,
+  .page {
     margin-left: var(--body-margin-left);
     margin-right: var(--body-margin-right);
   }
