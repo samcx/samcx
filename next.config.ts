@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   experimental: {
     inlineCss: true,
     ppr: true,
-    useLightningcss: true,
   },
   reactStrictMode: true,
 }
