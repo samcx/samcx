@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "next": "^15.4.2-canary.41",
+    "next": "^15.4.2-canary.46",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
@@ -20,8 +20,6 @@
     "@biomejs/biome": "^2.1.4",
     "@eslint/eslintrc": "^3.3.1",
     "@types/node": "^24.2.1",
-    "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7",
     "eslint": "^9.33.0",
     "eslint-config-next": "^15.4.2-canary.41",
     "husky": "^9.1.7",
