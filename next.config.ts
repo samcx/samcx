@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     ppr: true,
   },
   reactStrictMode: true,
+  typedRoutes: true,
 }
 
 export default nextConfig
