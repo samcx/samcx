@@ -21,7 +21,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@types/node": "^24.6.2",
     "eslint": "^9.36.0",
-    "eslint-config-next": "^15.6.0-canary.38",
+    "eslint-config-next": "^15.6.0-canary.39",
     "husky": "^9.1.7",
     "typescript": "^5.9.3"
   }
