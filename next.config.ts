@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
     cacheComponents: true,
     clientSegmentCache: true,
     inlineCss: true,
+    turbopackFileSystemCacheForBuild: true,
+    turbopackFileSystemCacheForDev: true,
   },
   reactStrictMode: true,
   typedRoutes: true,
