@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "prepare": "husky"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^16.1.0-canary.34",
