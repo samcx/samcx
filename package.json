@@ -9,7 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "^16.1.1-canary.4",
@@ -25,5 +25,13 @@
     "eslint-config-next": "^16.1.1-canary.4",
     "husky": "^9.1.7",
     "typescript": "^5.9.3"
-  }
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
 }
