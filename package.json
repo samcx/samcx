@@ -2,14 +2,14 @@
   "name": "samcx",
   "version": "3.0.0",
   "description": "A personal portfolio.",
-  "repository": "https://github.com/samcx/samcx",
   "license": "MIT",
+  "repository": "https://github.com/samcx/samcx",
   "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "biome check"
   },
   "dependencies": {
     "next": "^16.1.1-canary.5",
@@ -21,7 +21,6 @@
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.1-canary.5",
     "husky": "^9.1.7",
     "typescript": "^5.9.3"

@@ -7,8 +7,8 @@ const geistSans = Geist({
 })
 
 export const metadata: Metadata = {
+  description: 'Sam Ko',
   title: 'Sam Ko',
-  description: 'SAM KO',
 }
 
 export default function RootLayout({
