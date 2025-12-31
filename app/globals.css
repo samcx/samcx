@@ -48,7 +48,6 @@ footer > div {
   display: flex;
   align-items: center;
   gap: 2px;
-  margin: 0 auto;
   padding: 0 10px;
   width: 575px;
 }
