@@ -8,7 +8,7 @@
     }
   },
   "files": {
-    "includes": ["**", "!.next", "!next-env.d.ts"]
+    "includes": ["**", "!.claude", "!.next", "!next-env.d.ts"]
   },
   "formatter": {
     "indentStyle": "space"
