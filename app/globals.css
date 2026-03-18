@@ -5,9 +5,14 @@
   --body-margin-top: max(8px, env(safe-area-inset-top));
 }
 
+*,
 *:after,
 *:before {
   box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -80,11 +85,11 @@ footer > div > a:last-of-type {
 }
 
 .page {
-  margin-bottom: var(--body-margin-bottom);
-  margin-left: var(--body-margin-left);
-  margin-right: var(--body-margin-right);
-  margin-top: var(--body-margin-top);
-  max-width: 575px;
+  padding-bottom: var(--body-margin-bottom);
+  padding-left: var(--body-margin-left);
+  padding-right: var(--body-margin-right);
+  padding-top: var(--body-margin-top);
+  max-width: calc(575px + var(--body-margin-left) + var(--body-margin-right));
   width: 100%;
 }
 
