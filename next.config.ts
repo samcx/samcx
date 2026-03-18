@@ -1,10 +1,14 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  turbopack: {
-    root: '/vercel/share/v0-next-shadcn',
+  cacheComponents: true,
+  experimental: {
+    inlineCss: true,
+    turbopackFileSystemCacheForBuild: true,
+    turbopackFileSystemCacheForDev: true,
   },
+  reactStrictMode: true,
+  typedRoutes: true,
 }
 
 export default nextConfig
