@@ -49,7 +49,7 @@ footer > div {
   align-items: center;
   gap: 2px;
   padding: 0 10px;
-  width: 575px;
+  max-width: 575px;
 }
 
 footer > div > a {
@@ -80,8 +80,9 @@ footer > div > a:last-of-type {
 .page {
   margin-bottom: var(--body-margin-bottom);
   margin-left: var(--body-margin-left);
+  margin-right: var(--body-margin-right);
   margin-top: var(--body-margin-top);
-  width: 575px;
+  max-width: 575px;
 }
 
 .not-found {
@@ -94,9 +95,3 @@ footer > div > a:last-of-type {
   font-size: 16px;
 }
 
-@media (width <= 600px) {
-  .not-found,
-  .page {
-    margin-right: var(--body-margin-right);
-  }
-}
