@@ -5,19 +5,13 @@
   --body-margin-top: max(8px, env(safe-area-inset-top));
 }
 
-*,
 *:after,
 *:before {
   box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 main {
@@ -56,7 +50,6 @@ footer > div {
   gap: 2px;
   padding: 0 10px;
   max-width: 575px;
-  width: 100%;
 }
 
 footer > div > a {
@@ -85,12 +78,11 @@ footer > div > a:last-of-type {
 }
 
 .page {
-  padding-bottom: var(--body-margin-bottom);
-  padding-left: var(--body-margin-left);
-  padding-right: var(--body-margin-right);
-  padding-top: var(--body-margin-top);
-  max-width: calc(575px + var(--body-margin-left) + var(--body-margin-right));
-  width: 100%;
+  margin-bottom: var(--body-margin-bottom);
+  margin-left: var(--body-margin-left);
+  margin-right: var(--body-margin-right);
+  margin-top: var(--body-margin-top);
+  max-width: 575px;
 }
 
 .not-found {
@@ -102,5 +94,4 @@ footer > div > a:last-of-type {
 .quote {
   font-size: 16px;
 }
-
 
