@@ -6,7 +6,7 @@ export default function Home() {
       <main className="page">
         <div>
           <p className="quote">
-            <em>Eat at a local resturant tonight.</em> Get the cream sauce. Have
+            <em>Eat at a local resturant tonight.</em>{' '}Get the cream sauce. Have
             a cold pint at 4 o&apos;clock in a mostly empty bar.{' '}
             <em>Go somewhere you&apos;ve never been.</em> Listen to someone you
             think may have nothing in common with you. Order the steak rare. Eat
@@ -15,6 +15,12 @@ export default function Home() {
             <em>but have a drink with them anyways.</em> Eat slowly. Tip your
             server. Check in on your [family and] friends. Check in on yourself.{' '}
             <em>Enjoy the ride.</em>
+          </p>
+          <br />
+          <p className="quote">
+            No house should ever be on a hill or on anything.{' '}
+            <em>It should be of the hill.</em> Belonging to it. Hill and house
+            should live together each the happier for the other.
           </p>
         </div>
       </main>
