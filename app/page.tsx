@@ -6,7 +6,7 @@ export default function Home() {
       <main className="page">
         <div>
           <p className="quote">
-            <em>Eat at a local resturant tonight.</em> Get the cream sauce. Have
+            <em>Eat at a local resturant tonight.</em>{' '}Get the cream sauce. Have
             a cold pint at 4 o&apos;clock in a mostly empty bar.{' '}
             <em>Go somewhere you&apos;ve never been.</em> Listen to someone you
             think may have nothing in common with you. Order the steak rare. Eat
