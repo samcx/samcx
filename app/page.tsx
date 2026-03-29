@@ -16,6 +16,11 @@ export default function Home() {
             server. Check in on your [family and] friends. Check in on yourself.{' '}
             <em>Enjoy the ride.</em>
           </p>
+          <p className="quote">
+            No house should ever be on a hill or on anything. It should be of
+            the hill. Belonging to it. Hill and house should live together each
+            the happier for the other.
+          </p>
         </div>
       </main>
       <Footer />
