@@ -12,14 +12,14 @@ if [ -z "$STAGED_FILES" ]; then
   exit 0
 fi
 
-# Run biome check on the staged files
-echo "Running biome check on staged files: $STAGED_FILES"
-bun biome check $STAGED_FILES --write
+# Run oxfmt on the staged files
+echo "Running oxfmt on staged files: $STAGED_FILES"
+bun oxfmt $STAGED_FILES
 
 # Check if there are any changes left to commit
 if git diff --cached --quiet; then
-  echo "No changes left to commit after biome check. Aborting commit."
+  echo "No changes left to commit after formatting. Aborting commit."
   exit 1
 else
-  echo "Biome check completed successfully. Proceeding with commit."
+  echo "Formatting completed successfully. Proceeding with commit."
 fi
