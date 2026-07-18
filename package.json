@@ -13,7 +13,7 @@
     "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "next": "^16.3.0-canary.89",
+    "next": "^16.3.0-canary.97",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
