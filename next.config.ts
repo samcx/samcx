@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     inlineCss: true,
     turbopackFileSystemCacheForBuild: true,
     turbopackFileSystemCacheForDev: true,
+    useTypeScriptCli: true,
   },
   reactStrictMode: true,
   typedRoutes: true,
