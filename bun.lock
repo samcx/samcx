@@ -5,7 +5,7 @@
     "": {
       "name": "samcx",
       "dependencies": {
-        "next": "^16.3.0-canary.97",
+        "next": "^16.3.0-canary.106",
         "react": "^19.2.8",
         "react-dom": "^19.2.8",
       },
@@ -79,23 +79,23 @@
 
     "@img/sharp-win32-x64": ["@img/sharp-win32-x64@0.35.3", "https://registry.k8s.vercel-security.com/npm/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.3.tgz", { "os": "win32", "cpu": "x64" }, "sha512-D4y1vNeZrIIJCN+uHaWVtH86B+aCrdMYYjicy9pXHvbGZeGYLLSd3wdVuC37FxVXlU1ARsk84eKWfWMXGYEqvA=="],
 
-    "@next/env": ["@next/env@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/env/-/env-16.3.0-canary.97.tgz", {}, "sha512-WvKFCi66d9Nae76J5geWhb39GCapVjeOOgDWN4rDpk55CZWMw8RHk6jExs/pOSe7xG4+XTEslPs000mdpPzUwQ=="],
+    "@next/env": ["@next/env@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/env/-/env-16.3.0-canary.106.tgz", {}, "sha512-d7Lo0BAhEyhrjT2uPkITDOMiogP7cIuWtG+AunVlPCx8A2MB8+5vNnrlSPjGgKGYHHUyIWIzxKOml5KxFxAdNQ=="],
 
-    "@next/swc-darwin-arm64": ["@next/swc-darwin-arm64@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.3.0-canary.97.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-Q+5z2l2GMSTSIvyX7UU36RawwnCT9zaRH5/cCQ8NuZ6PKcYMAvXkoiG0Z1hGc+ZCLrG/zgVRedGdJd+Ex8YR2Q=="],
+    "@next/swc-darwin-arm64": ["@next/swc-darwin-arm64@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.3.0-canary.106.tgz", { "os": "darwin", "cpu": "arm64" }, "sha512-EuFgIwRO5mQEUDNoRKPfDOLr6o19XKWy7zdCZ4IHL93h9MMLawtia3DyJWv1cVDmPqyZzpP8eph91HKndyQ6qQ=="],
 
-    "@next/swc-darwin-x64": ["@next/swc-darwin-x64@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-darwin-x64/-/swc-darwin-x64-16.3.0-canary.97.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-AzpvtCvAWJlHWtIYXC0haWsE+aj0LFBB2Fmo0jO0RxsmyFIiDbSBFXjwhRY9QTGrBT2yG2VlZbQMcw4tvcLoxA=="],
+    "@next/swc-darwin-x64": ["@next/swc-darwin-x64@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-darwin-x64/-/swc-darwin-x64-16.3.0-canary.106.tgz", { "os": "darwin", "cpu": "x64" }, "sha512-3DBaQ+dEAe3weauerEE32N1HCpqEd3lPi+IqFNvjaHe0hkU/PW5otzS+cHk1/AB52s2yXktroozc9Rr+u5OJgg=="],
 
-    "@next/swc-linux-arm64-gnu": ["@next/swc-linux-arm64-gnu@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.3.0-canary.97.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-m0LFu6NqV+XwUAZyRSzjDfduqQ+EPyUdJsd28gK5oFFjtm2tnN9jDXyVbSVPDAPbJWp6dHyWDFwmH3KxFgarfA=="],
+    "@next/swc-linux-arm64-gnu": ["@next/swc-linux-arm64-gnu@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-16.3.0-canary.106.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-32mf2OAvT2q5w0NiktGhhpdDALiYcLhgq1emZnCnTQnEcSh/DQY0ikpjHOHRdZD1fX7npwWUfxMPL6ywTm33Qg=="],
 
-    "@next/swc-linux-arm64-musl": ["@next/swc-linux-arm64-musl@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.3.0-canary.97.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-gJoz6Af5Gv61fIXoZOIPi+S89syT9NwwuMvKABs7BbcZMLSbgzZotciRe7NmrSkM1XB4tqOEKE7o1WGWUEOHjQ=="],
+    "@next/swc-linux-arm64-musl": ["@next/swc-linux-arm64-musl@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-16.3.0-canary.106.tgz", { "os": "linux", "cpu": "arm64" }, "sha512-y/wktG99LNPi+b1hbKZ3yyeQ24N2QOsWI5lZlZFKViLTCD4oe/ns7GphAkevES+lJsDpS798qNJNVwbumfq+kQ=="],
 
-    "@next/swc-linux-x64-gnu": ["@next/swc-linux-x64-gnu@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.3.0-canary.97.tgz", { "os": "linux", "cpu": "x64" }, "sha512-rmAD61LkHesLucR+ZwNsIkybWAk8tR6XbET3N3ibrnrOGz418pfB5/c6m8d1kFJRs0+QVwG3PtKfXIq2bzrJGQ=="],
+    "@next/swc-linux-x64-gnu": ["@next/swc-linux-x64-gnu@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-16.3.0-canary.106.tgz", { "os": "linux", "cpu": "x64" }, "sha512-CFxNXDxE8VtugERompzlbRSiJq1Xf6XJarOZLuWKWtgzLlf/nRIezQ3+6oRy25RdWOJl8I7MIKfWTQhVMFj8jw=="],
 
-    "@next/swc-linux-x64-musl": ["@next/swc-linux-x64-musl@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.3.0-canary.97.tgz", { "os": "linux", "cpu": "x64" }, "sha512-a/mWna931QI7luxfCpD+EnXhMIcYDzoaOMjxFgqo1uccFud5jLhWqHPAgC4b/50b2dMq8jYdxsMaYB/WuY0flg=="],
+    "@next/swc-linux-x64-musl": ["@next/swc-linux-x64-musl@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-16.3.0-canary.106.tgz", { "os": "linux", "cpu": "x64" }, "sha512-FiFvvRjGf/oLcDEDno7rD2dgZsNdrygtBAOcKId9SopZZ2oiPrhVAGqm5fdL/q0HWKmP3mlMDuYxXpxTMmPuDQ=="],
 
-    "@next/swc-win32-arm64-msvc": ["@next/swc-win32-arm64-msvc@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.3.0-canary.97.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-Tv5ECajvDtK3jL2niYRGkUmK7faGMh9W5f5ZKIU4Z5fa5Omc019Ks7Ejpl1U0J8SrlHNQA6FniZNMPnZ4gOiTQ=="],
+    "@next/swc-win32-arm64-msvc": ["@next/swc-win32-arm64-msvc@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-16.3.0-canary.106.tgz", { "os": "win32", "cpu": "arm64" }, "sha512-ZwO6FJxEapZ5wcrvYJM0KaMgziuEvGchnM3i6JPV5RhHB9dRfPkzFzFzwEms3PkdKLeoBunB7q+f1+kkcpPt1Q=="],
 
-    "@next/swc-win32-x64-msvc": ["@next/swc-win32-x64-msvc@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.0-canary.97.tgz", { "os": "win32", "cpu": "x64" }, "sha512-EHPgmKvfqk28waUFBbNWpNn3suYrW+s6uLt925MGtCIXuNRMDiTYU/1p6eFT9c51L4SIaVNhe1J4Ah2jPV9/RA=="],
+    "@next/swc-win32-x64-msvc": ["@next/swc-win32-x64-msvc@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.0-canary.106.tgz", { "os": "win32", "cpu": "x64" }, "sha512-mI9gDM5ZKmo3DD4xrF43zWCOXRwQqDPynLRrn+sCCh8u3K41nGxh/T+BGyyZhIXzY85E05c7lSM4RK/3LFLu+w=="],
 
     "@oxfmt/binding-android-arm-eabi": ["@oxfmt/binding-android-arm-eabi@0.62.0", "https://registry.k8s.vercel-security.com/npm/@oxfmt/binding-android-arm-eabi/-/binding-android-arm-eabi-0.62.0.tgz", { "os": "android", "cpu": "arm" }, "sha512-pdsv0C4gPjJ8H1+sd8u0BDx+yLACTL+rgeMIOL1ln4ihSnhw8CWXtYWgvcSkyTfgGBIzFKab+d8rx9Xl4en/Kw=="],
 
@@ -183,7 +183,7 @@
 
     "@typescript/typescript-win32-x64": ["@typescript/typescript-win32-x64@7.0.2", "https://registry.k8s.vercel-security.com/npm/@typescript/typescript-win32-x64/-/typescript-win32-x64-7.0.2.tgz", { "os": "win32", "cpu": "x64" }, "sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g=="],
 
-    "baseline-browser-mapping": ["baseline-browser-mapping@2.11.10", "https://registry.k8s.vercel-security.com/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.11.10.tgz", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-35JEvJ5/KKlbCHjMCsONI2w6HE88STjVdHk+C7d8LtcFxUjZR1KeLP9izofn2qs0KUxX5r4z73bwH/rd+JHacw=="],
+    "baseline-browser-mapping": ["baseline-browser-mapping@2.11.11", "https://registry.k8s.vercel-security.com/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.11.11.tgz", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-/yImnXwyTvgMkhgekLHok/Rx5vO6E0BmStWlSqKWMVm2a2ITuZ1Tn+9bgLS+gZRdZmWtd8nxuhHpdmCUOWsTQQ=="],
 
     "caniuse-lite": ["caniuse-lite@1.0.30001806", "https://registry.k8s.vercel-security.com/npm/caniuse-lite/-/caniuse-lite-1.0.30001806.tgz", {}, "sha512-72Cuvd95zbSYPKq6Fhg8eDJRlzgWDf7/mtoZv6Qe/DYNCEBdNxoA3+rZAU2ZhGCpZlns3EssFavaZomckT5Uuw=="],
 
@@ -197,13 +197,13 @@
 
     "nanoid": ["nanoid@3.3.16", "https://registry.k8s.vercel-security.com/npm/nanoid/-/nanoid-3.3.16.tgz", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q=="],
 
-    "next": ["next@16.3.0-canary.97", "https://registry.k8s.vercel-security.com/npm/next/-/next-16.3.0-canary.97.tgz", { "dependencies": { "@next/env": "16.3.0-canary.97", "@swc/helpers": "0.5.15", "baseline-browser-mapping": "^2.9.19", "caniuse-lite": "^1.0.30001579", "postcss": "8.5.10", "styled-jsx": "5.1.6" }, "optionalDependencies": { "@next/swc-darwin-arm64": "16.3.0-canary.97", "@next/swc-darwin-x64": "16.3.0-canary.97", "@next/swc-linux-arm64-gnu": "16.3.0-canary.97", "@next/swc-linux-arm64-musl": "16.3.0-canary.97", "@next/swc-linux-x64-gnu": "16.3.0-canary.97", "@next/swc-linux-x64-musl": "16.3.0-canary.97", "@next/swc-win32-arm64-msvc": "16.3.0-canary.97", "@next/swc-win32-x64-msvc": "16.3.0-canary.97", "sharp": "^0.35.3" }, "peerDependencies": { "@opentelemetry/api": "^1.1.0", "@playwright/test": "^1.51.1", "babel-plugin-react-compiler": "*", "react": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "react-dom": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "sass": "^1.3.0" }, "optionalPeers": ["@opentelemetry/api", "@playwright/test", "babel-plugin-react-compiler", "sass"], "bin": { "next": "dist/bin/next" } }, "sha512-pErHX4rcnh+zCnL3aQFVaSjoemcD/Yb9McuRPewUQ2XuvJqJTErNWReEYiXtx2qfLjtYOjscDH4G3Tb/uz/xzQ=="],
+    "next": ["next@16.3.0-canary.106", "https://registry.k8s.vercel-security.com/npm/next/-/next-16.3.0-canary.106.tgz", { "dependencies": { "@next/env": "16.3.0-canary.106", "@swc/helpers": "0.5.15", "baseline-browser-mapping": "^2.9.19", "caniuse-lite": "^1.0.30001579", "postcss": "8.5.23", "styled-jsx": "5.1.6" }, "optionalDependencies": { "@next/swc-darwin-arm64": "16.3.0-canary.106", "@next/swc-darwin-x64": "16.3.0-canary.106", "@next/swc-linux-arm64-gnu": "16.3.0-canary.106", "@next/swc-linux-arm64-musl": "16.3.0-canary.106", "@next/swc-linux-x64-gnu": "16.3.0-canary.106", "@next/swc-linux-x64-musl": "16.3.0-canary.106", "@next/swc-win32-arm64-msvc": "16.3.0-canary.106", "@next/swc-win32-x64-msvc": "16.3.0-canary.106", "sharp": "^0.35.3" }, "peerDependencies": { "@opentelemetry/api": "^1.1.0", "@playwright/test": "^1.51.1", "babel-plugin-react-compiler": "*", "react": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "react-dom": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0", "sass": "^1.3.0" }, "optionalPeers": ["@opentelemetry/api", "@playwright/test", "babel-plugin-react-compiler", "sass"], "bin": { "next": "dist/bin/next" } }, "sha512-VPDYIuEa4KIoa3XS4DCBsElSzcY/qO9/IutBUNttPR8B1fnw/+b1pcnezwDGWR7Z156Joq4NlAYbxYvBM/Ghxw=="],
 
     "oxfmt": ["oxfmt@0.62.0", "https://registry.k8s.vercel-security.com/npm/oxfmt/-/oxfmt-0.62.0.tgz", { "dependencies": { "tinypool": "2.1.0" }, "optionalDependencies": { "@oxfmt/binding-android-arm-eabi": "0.62.0", "@oxfmt/binding-android-arm64": "0.62.0", "@oxfmt/binding-darwin-arm64": "0.62.0", "@oxfmt/binding-darwin-x64": "0.62.0", "@oxfmt/binding-freebsd-x64": "0.62.0", "@oxfmt/binding-linux-arm-gnueabihf": "0.62.0", "@oxfmt/binding-linux-arm-musleabihf": "0.62.0", "@oxfmt/binding-linux-arm64-gnu": "0.62.0", "@oxfmt/binding-linux-arm64-musl": "0.62.0", "@oxfmt/binding-linux-ppc64-gnu": "0.62.0", "@oxfmt/binding-linux-riscv64-gnu": "0.62.0", "@oxfmt/binding-linux-riscv64-musl": "0.62.0", "@oxfmt/binding-linux-s390x-gnu": "0.62.0", "@oxfmt/binding-linux-x64-gnu": "0.62.0", "@oxfmt/binding-linux-x64-musl": "0.62.0", "@oxfmt/binding-openharmony-arm64": "0.62.0", "@oxfmt/binding-win32-arm64-msvc": "0.62.0", "@oxfmt/binding-win32-ia32-msvc": "0.62.0", "@oxfmt/binding-win32-x64-msvc": "0.62.0" }, "peerDependencies": { "svelte": "^5.0.0", "vite-plus": "*" }, "optionalPeers": ["svelte", "vite-plus"], "bin": { "oxfmt": "bin/oxfmt" } }, "sha512-vxgGHTmnDU9j4CX7dDBLzxgmHxfda/yPcgJkGCMUSCwRmz+euo/V08xXLNgXTeqAB9Fhf3Pe2nO1RNKLCVgphQ=="],
 
     "picocolors": ["picocolors@1.1.1", "https://registry.k8s.vercel-security.com/npm/picocolors/-/picocolors-1.1.1.tgz", {}, "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="],
 
-    "postcss": ["postcss@8.5.10", "https://registry.k8s.vercel-security.com/npm/postcss/-/postcss-8.5.10.tgz", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ=="],
+    "postcss": ["postcss@8.5.23", "https://registry.k8s.vercel-security.com/npm/postcss/-/postcss-8.5.23.tgz", { "dependencies": { "nanoid": "^3.3.16", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg=="],
 
     "react": ["react@19.2.8", "https://registry.k8s.vercel-security.com/npm/react/-/react-19.2.8.tgz", {}, "sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw=="],
 
