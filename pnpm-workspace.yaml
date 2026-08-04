@@ -4,5 +4,12 @@ packages:
 minimumReleaseAgeExclude:
   - next
   - '@next/*'
+  - react
+  - react-dom
+  - '@types/node'
+  - '@types/react'
+  - '@types/react-dom'
+  - husky
   - oxfmt
   - '@oxfmt/*'
+  - typescript
