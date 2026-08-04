@@ -24,13 +24,5 @@
     "husky": "^9.1.7",
     "oxfmt": "^0.62.0",
     "typescript": "^7.0.2"
-  },
-  "ignoreScripts": [
-    "sharp",
-    "unrs-resolver"
-  ],
-  "trustedDependencies": [
-    "sharp",
-    "unrs-resolver"
-  ]
+  }
 }

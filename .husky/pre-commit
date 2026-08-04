@@ -14,7 +14,7 @@ fi
 
 # Run oxfmt on the staged files
 echo "Running oxfmt on staged files: $STAGED_FILES"
-bun oxfmt $STAGED_FILES
+pnpm exec oxfmt $STAGED_FILES
 
 # Check if there are any changes left to commit
 if git diff --cached --quiet; then
