@@ -1,0 +1,18 @@
+# `packages` is required by pnpm 9, which fails with "packages field missing or
+# empty" on a settings-only workspace file. Corepack pins pnpm 11 for builds, so
+# this is only a fallback: if Corepack is ever disabled, Vercel selects the
+# package manager from lockfileVersion 9.0 and can land on pnpm 9.
+packages:
+  - .
+
+# Exempt from the minimumReleaseAge gate set in ~/Library/Preferences/pnpm/rc.
+# pnpm 11 fails resolution outright (ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION)
+# rather than quietly falling back to an older version, so every package tracked
+# on a fast-moving tag has to be listed here. The globs are required: @next/swc-*
+# and @oxfmt/binding-* publish alongside their parent, and pnpm resolves every
+# platform variant regardless of the host it runs on.
+minimumReleaseAgeExclude:
+  - next
+  - '@next/*'
+  - oxfmt
+  - '@oxfmt/*'
