@@ -5,7 +5,6 @@
   "license": "MIT",
   "repository": "https://github.com/samcx/samcx",
   "type": "module",
-  "packageManager": "pnpm@11.20.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -25,5 +24,6 @@
     "husky": "^9.1.7",
     "oxfmt": "^0.62.0",
     "typescript": "^7.0.2"
-  }
+  },
+  "packageManager": "pnpm@11.20.0"
 }
