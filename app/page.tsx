@@ -18,7 +18,9 @@ export default function Home() {
           </p>
           <br />
           <p className="quote">
-            <em>Then stop trying.</em> Take long walks. Look at scenery. Doze off at noon. Don&apos;t even think about flying. And then, pretty soon, <em>you&apos;ll be flying again.</em>
+            <em>Then stop trying.</em> Take long walks. Look at scenery. Doze
+            off at noon. Don&apos;t even think about flying. And then, pretty
+            soon, <em>you&apos;ll be flying again.</em>
           </p>
           <br />
           <p className="quote">
