@@ -18,8 +18,12 @@ export default function Home() {
           </p>
           <br />
           <p className="quote">
+            <em>Then stop trying.</em> Take long walks. Look at scenery. Doze off at noon. Don&apos;t even think about flying. And then, pretty soon, <em>you&apos;ll be flying again.</em>
+          </p>
+          <br />
+          <p className="quote">
             No house should ever be on a hill or on anything.{' '}
-            <em>It should be of the hill.</em> Belonging to it. Hill and house
+            <em>It should be of the hill. Belonging to it.</em> Hill and house
             should live together each the happier for the other.
           </p>
         </div>
