@@ -15,7 +15,7 @@
   "dependencies": {
     "next": "16.4.0-canary.25",
     "react": "^19.3.0",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@types/node": "^26.5.0",
