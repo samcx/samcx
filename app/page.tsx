@@ -28,6 +28,10 @@ export default function Home() {
             <em>It should be of the hill. Belonging to it.</em> Hill and house
             should live together each the happier for the other.
           </p>
+          <br />
+          <p className="quote">
+            I pray that on a <em>brighter summer day</em>, we&apos;ll stand face to face, eye to eye, so that I may thank you <em>heart to heart.</em>
+          </p>
         </div>
       </main>
       <Footer />

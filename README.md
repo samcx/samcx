@@ -5,3 +5,5 @@ _Eat at a local restaurant tonight._ Get the cream sauce. Have a cold pint at 4 
 _Then stop trying._ Take long walks. Look at scenery. Doze off at noon. Don't even think about flying. And then, pretty soon, _you'll be flying again._
 
 No house should ever be on a hill or on anything. _It should be of the hill. Belonging to it._ Hill and house should live together each the happier for the other.
+
+I pray that on a _brighter summer day_, we'll stand face to face, eye to eye, so that I may thank you _heart to heart._
