@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     inlineCss: true,
     useTypeScriptCli: true,
   },
+  partialPrefetching: true,
   reactStrictMode: true,
   typedRoutes: true,
 }
