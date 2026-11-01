@@ -11,6 +11,8 @@
 }
 
 body {
+  font-family: var(--font-geist-sans);
+  font-style: normal;
   margin: 0;
 }
 
@@ -19,7 +21,7 @@ main {
 }
 
 h1 {
-  font-family: Times, serif;
+  font-family: var(--font-geist-serif-regular), Times, serif;
 }
 
 p {
@@ -27,8 +29,8 @@ p {
 }
 
 em {
-  font-family: Times, serif;
-  font-size: 18px;
+  font-family: var(--font-geist-serif-regular), Times, serif;
+  font-size: 15.25px;
 }
 
 a {

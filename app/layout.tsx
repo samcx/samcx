@@ -1,10 +1,8 @@
 import type { Metadata, Viewport } from 'next'
-import { Geist } from 'next/font/google'
+import { preload } from 'react-dom'
+import { fontPreloads } from './fonts.generated'
+import './fonts.generated.css'
 import './globals.css'
-
-const geistSans = Geist({
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   description: 'Sam Ko',
@@ -22,9 +20,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  for (const href of fontPreloads) {
+    preload(href, { as: 'font', type: 'font/woff2', crossOrigin: 'anonymous' })
+  }
+
   return (
     <html lang="en">
-      <body className={geistSans.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
