@@ -166,6 +166,9 @@ importers:
 
   .:
     dependencies:
+      geist:
+        specifier: ^1.9.2
+        version: 1.9.2(next@16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       next:
         specifier: 16.5.0-canary.44
         version: 16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -185,9 +188,6 @@ importers:
       '@types/react-dom':
         specifier: ^19.3.0
         version: 19.3.0(@types/react@19.3.0)
-      geist:
-        specifier: 1.9.0
-        version: 1.9.0(next@16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -694,8 +694,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  geist@1.9.0:
-    resolution: {integrity: sha512-uxiyxH5PaKDaK2//ln06NxJEz5gc6771BTwSs1YFgNnASGtp1SYD3VZShSIijvlNwDjMgHnzqye4MmIUTspEzw==}
+  geist@1.9.2:
+    resolution: {integrity: sha512-UU1x2q5Khob0+i4csFvXk1Ki4DePdu7xISuXyEcj1tzQMg64oN7Kbuy4e5z5QhcUWbbvOMJNs3ZxYQqpsEMV3w==}
     peerDependencies:
       next: '>=13.2.0'
 
@@ -1093,7 +1093,7 @@ snapshots:
   detect-libc@2.1.2:
     optional: true
 
-  geist@1.9.0(next@16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)):
+  geist@1.9.2(next@16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)):
     dependencies:
       next: 16.5.0-canary.44(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
 
